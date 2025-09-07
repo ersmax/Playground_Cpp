@@ -1,2 +1,1 @@
-This is a playground with a set of exercises from the book:
-"Absolute C++" from Stavich
+This is a playground with a set of examples.
