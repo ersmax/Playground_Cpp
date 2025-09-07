@@ -15,9 +15,9 @@ int main() {
     cin >> numberOfLanguages;
 
     if (numberOfLanguages < 1)
-        cout << "Welcome to C++.";
+        cout << "Welcome to C++.\n";
     else
-        cout << "Congrats to your new learning";
+        cout << "Congrats to your new learning.\n";
 
     return 0;
 }
