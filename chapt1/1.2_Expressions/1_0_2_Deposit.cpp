@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-    const double RATE = 0.01;  // Interest rate
+    const double RATE = 0.01;   // Interest rate
     double deposit;             // Amount of deposit
 
     cout << "Enter the amount of your deposit: $";
