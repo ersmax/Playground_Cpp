@@ -1,1 +1,1 @@
-This is a playground with a set of examples.
+This is a playground with my solutions on exercises of Walter Savitch's book (Absolute C++).
