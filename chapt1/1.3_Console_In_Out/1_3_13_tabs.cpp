@@ -7,7 +7,7 @@ the letter 'C'.
 using namespace std;
 
 int main( ) {
-    cout << 'A' << '\n'
+    cout << 'A' << endl
          << 'B' << '\t'
          << "C\n";
 
