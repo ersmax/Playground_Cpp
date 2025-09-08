@@ -18,9 +18,9 @@ int main ( ) {
     string firstName, lastName;
     int age;
 
-    cout << "Enter your first and last name." << endl;
+    cout << "Enter your first and last name:";
     cin >> firstName >> lastName;   // Fix: Separate first and last names
-    cout << "Enter your age." << endl;
+    cout << "Enter your age:";
     cin >> age;
     cout << "You are " << age << " years old, "
          << firstName << " " << lastName << endl; // Fix: Output both names
