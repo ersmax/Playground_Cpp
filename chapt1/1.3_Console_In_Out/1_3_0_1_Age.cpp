@@ -1,5 +1,6 @@
 // Program to compute the age
 #include <iostream>
+#include <string>
 using namespace std;
 
 int main ( ) {
