@@ -30,7 +30,7 @@ int main ( ) {
         cout << "Failed to open the file" << endl;
         return -1;
     }
-    
+
     inputStream >> scores;
 
     for (int idx = 0; idx < scores; idx++) {
