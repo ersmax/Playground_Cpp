@@ -9,7 +9,7 @@ using namespace std;
 
 int main ( ) {
     int scores, bestScore = -1;
-    string bestName = "";
+    string bestName;
     fstream inputStream;
 
     inputStream.open("99_Text_files/1_scores.txt");
