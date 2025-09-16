@@ -14,6 +14,6 @@ int main( ) {
     for (int num = 1; num < 11; ++num)
         cout << "Square root of "
             << num << ": " << sqrt(num) << endl;
-    
+
     return 0;
 }
