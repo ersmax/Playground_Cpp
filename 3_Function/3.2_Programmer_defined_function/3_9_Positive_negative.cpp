@@ -5,18 +5,20 @@ its argument is positive and returns 'N' if its argument is zero or negative.
 */
 #include <iostream>
 using namespace std;
-char checkNumber(double number);
-int main ( ) {
-    double number;
+
+char positiveNegative(double number);
+// return P or N according to the parameter
+
+int main( ) {
+    int n;
     cout << "Insert a number:";
-    cin >> number;
-    char result = checkNumber(number);
-    cout << "The number is " << (result == 'P' ? "positive" : "zero or negative") << endl;
+    cin >> n;
+    cout << "And the output is: "
+         << positiveNegative(n)
+         << endl;
     return 0;
 }
-char checkNumber(double number) {
-    if (number > 0)
-        return 'P';
-    else
-        return 'N';
+
+char positiveNegative(double number) {
+    return (number > 0) ? 'P' : 'N';
 }
