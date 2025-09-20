@@ -19,8 +19,8 @@ Answer:
       based on the programmer's needs.
    4. Predefined functions are typically optimized for performance and reliability,
       while user-defined functions may vary in efficiency and reliability depending on the implementation.
-   5. Predefined functions are documented in the library documentation, while user-defined functions require the programmer to provide documentation
-      for their usage and behavior.
+   5. Predefined functions are documented in the library documentation, while user-defined functions require
+      the programmer to provide documentation for their usage and behavior.
    6. User-defined functions must be declared or defined before they are used,
       while libraries must be included at the beginning of the program to access predefined functions.
 */
