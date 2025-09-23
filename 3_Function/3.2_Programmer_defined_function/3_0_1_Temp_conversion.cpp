@@ -8,6 +8,7 @@ using namespace std;
 double tempConversion(double cDegrees);
 double insertTemperature();
 void showResult(double fDegrees, double cDegrees);
+void initializeScreen();
 
 int main( ) {
     double celsius = insertTemperature( );
@@ -37,6 +38,11 @@ void showResult(double fDegrees, double cDegrees) {
     cout << cDegrees << " degrees Celsius is "
          << fDegrees << " degrees Fahrenheit.\n";
 }
+
+void initializeScreen() {
+    cout << endl;
+}
+
 
 
 
