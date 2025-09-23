@@ -17,10 +17,12 @@ int main( ) {
 }
 
 double tempConversion(double cDegrees) {
+    // Compute the Fahrenheit equivalent of cDegrees
     return (9/5.0) * cDegrees + 32.0;
 }
 
 double insertTemperature() {
+    // Ask user to insert temperature in Celsius
     double celsius;
     cout << "Insert temperature in C:";
     cin >> celsius;
@@ -28,6 +30,7 @@ double insertTemperature() {
 }
 
 void showResult(double fDegrees, double cDegrees) {
+    // Show the result
     cout.setf(ios::fixed);
     cout.setf(ios::showpoint);
     cout.precision(2);
