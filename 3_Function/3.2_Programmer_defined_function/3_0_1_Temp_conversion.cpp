@@ -1,5 +1,5 @@
 /*
-This program illustrate the use of two functions
+This program illustrates the use of two functions
 to compute and show the temperature conversion.
 */
 #include <iostream>
