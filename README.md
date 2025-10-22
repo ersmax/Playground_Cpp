@@ -20,4 +20,13 @@ Feel free to explore each file for code examples and explanations.
 7. [Quotient and Remainder](1_Start/1.2_Expressions/1_7_Output_and_remainder.cpp) - Reads two integers and prints the whole-number quotient and remainder.
 8. [Temperature Conversion](1_Start/1.2_Expressions/1_8_Temperature_conversion.cpp) - Shows a Celsius-to-Fahrenheit conversion bug due to integer division and correction.
 
+## Chapter 1: Section 1.3 Console In and Console Out
 
+- [Age](1_Start/1.3_Console_In_Out/1_3_0_1_Age.cpp) - Reads a dog's age and name, then computes the equivalent human years.
+9. [Message](1_Start/1.3_Console_In_Out/1_3_9_Message.cpp) - Outputs the multi-line phrase about Life, the Universe, and Everything being 42.
+10. [Input Prompt](1_Start/1.3_Console_In_Out/1_3_10_Input.cpp) - Prompts for and reads an integer into the variable `theNumber`.
+11. [Formatting Statement](1_Start/1.3_Console_In_Out/1_3_11_Statement.cpp) - Demonstrates setting `cout` to fixed notation, `showpoint`, and precision of 3.
+12. [Greet](1_Start/1.3_Console_In_Out/1_3_12_Greet.cpp) - Minimal program that prints `Hello world`.
+13. [Tabs](1_Start/1.3_Console_In_Out/1_3_13_tabs.cpp) - Outputs `A`, newline, `B`, a tab, and `C`.
+14. [Fix Error](1_Start/1.3_Console_In_Out/1_3_14_Fix_error.cpp) - Fixes input/output to read first and last name separately and display full name with age.
+15. [String Concatenation Result](1_Start/1.3_Console_In_Out/1_3_15_result.cpp) - Shows string concatenation of `"5"` and `"3"` producing `53`.
