@@ -143,9 +143,9 @@ Feel free to explore each file for code examples and explanations.
 ## Chapter 4: Section 1 Parameters and Overloading
 
 - [Office billing program](4_Parameters_and_Overloading/4.1_Parameters/4_0_1_Office_Billing_Program.cpp) - Computes the bill from hours and minutes using `fee(int, int)` with quarter-hour rounding and `RATE = 150.00`.
-- [Reverse by reference](4_Parameters_and_Overloading/4.1_Parameters/4_0_2_Reverse_by_reference.cpp) - Demonstrates reference parameters: input via references, swap using references, and display results.
+- [Reverse by reference](4_Parameters_and_Overloading/4.1_Parameters/4_0_2_Reverse_by_reference.cpp) - Demonstrates reference parameters: input via references, swap using references.
 1. [Call-by-value definition](4_Parameters_and_Overloading/4.1_Parameters/4_1_Call_by_value_def.cpp) - Explains the call-by-value parameter mechanism and its effects on arguments.
-2. [Inches conversion (by value)](4_Parameters_and_Overloading/4.1_Parameters/4_2_Inches_conversion_by_value.cpp) - Q&A showing a feet+inches to total inches function and why pass-by-value is appropriate.
+2. [Inches conversion (by value)](4_Parameters_and_Overloading/4.1_Parameters/4_2_Inches_conversion_by_value.cpp) - Show a feet+inches to total inches function and why pass-by-value is appropriate.
 
 
 
