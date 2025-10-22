@@ -30,3 +30,10 @@ Feel free to explore each file for code examples and explanations.
 13. [Tabs](1_Start/1.3_Console_In_Out/1_3_13_tabs.cpp) - Outputs `A`, newline, `B`, a tab, and `C`.
 14. [Fix Error](1_Start/1.3_Console_In_Out/1_3_14_Fix_error.cpp) - Fixes input/output to read first and last name separately and display full name with age.
 15. [String Concatenation Result](1_Start/1.3_Console_In_Out/1_3_15_result.cpp) - Shows string concatenation of `"5"` and `"3"` producing `53`.
+
+## Chapter 2: Section 2.1 Boolean expressions
+
+1. [Boolean expressions](2_Flow_of_control/2.1_Boolean_expressions/2_1_boolean_exp.cpp) - Evaluates a set of Boolean expressions with `count = 0` and `limit = 10`, demonstrates short-circuiting and notes division-by-zero pitfalls.
+2. [Boolean interval](2_Flow_of_control/2.1_Boolean_expressions/2_2_Boolean_interval.cpp) - Explains why `2 < x < 3` is incorrect in C\+\+ and shows the correct expression `2 < x && x < 3`.
+3. [Quadratic positive region](2_Flow_of_control/2.1_Boolean_expressions/2_3_Quadratic_exp.cpp) - Shows the Boolean condition where `x^2 - x - 2` is positive: `x < -1 || x > 2`.
+4. [Quadratic negative region](2_Flow_of_control/2.1_Boolean_expressions/2_4_Quadratic_exp_negative.cpp) - Shows the Boolean condition where `x^2 - 4x + 3` is negative: `x > 1 && x < 3`.
