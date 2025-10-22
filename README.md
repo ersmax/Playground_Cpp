@@ -131,3 +131,17 @@ Feel free to explore each file for code examples and explanations.
 
 ## Chapter 3: Section 3 Scope rules
 
+- [Function variable declaration](3_Function/3.3_Scope_Rules/3_20_Function_var.cpp) - Where to declare a variable used in a function; prefer function-local unless broader access is needed.
+- [Function-local variables](3_Function/3.3_Scope_Rules/3_21_Function_variables.cpp) - Identically named local variables in different functions do not conflict; each has its own scope.
+- [Comment purpose](3_Function/3.3_Scope_Rules/3_22_Principle_procedural_abstraction.cpp) - Explains a function declaration comment: purpose, parameters, and return value for users.
+- [Procedural abstraction](3_Function/3.3_Scope_Rules/3_23_Procedural_abstraction.cpp) - Principle of hiding implementation details so a function can be used like a black box.
+- [Black box](3_Function/3.3_Scope_Rules/3_24_Black_box.cpp) - Treating a function as a black box means relying on its interface, not its internals.
+- [Scope rules example](3_Function/3.3_Scope_Rules/3_25_Scope_rules.cpp) - Nested-block example demonstrating variable shadowing and the resulting output sequence.
+
+---
+
+## Chapter 4: Section 1 Parameters and Overloading
+
+
+
+
