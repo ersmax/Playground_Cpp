@@ -115,16 +115,16 @@ Feel free to explore each file for code examples and explanations.
 - [Ice cream division](3_Function/3.2_Programmer_defined_function/3_0_2_Ice_cream_division.cpp) - Divide total ice cream among customers with zero-check.
 - [Average yield (pea)](3_Function/3.2_Programmer_defined_function/3_0_3_Avg_yield_pea.cpp) - Estimate total peas and yield using a helper.
 - [Area of circle / Volume of sphere](3_Function/3.2_Programmer_defined_function/3_0_4_Area_circle_volume_sphere.cpp) - Uses `constexpr double PI` for area and volume.
-- [Output example](3_Function/3.2_Programmer_defined_function/3_7_Output.cpp) - Small function return example producing "Wow".
-- [Function sum](3_Function/3.2_Programmer_defined_function/3_8_Function_sum.cpp) - Returns sum of three `int` arguments.
-- [Positive / Negative](3_Function/3.2_Programmer_defined_function/3_9_Positive_negative.cpp) - Returns `'P'` or `'N'` based on a `double`.
-- [Function definition rule](3_Function/3.2_Programmer_defined_function/3_10_Function_definition.cpp) - Notes that function definitions cannot be nested.
-- [Predefined vs user-defined](3_Function/3.2_Programmer_defined_function/3_11_Predefined_vs_user_defined.cpp) - Comparison of invocation and differences.
-- [In-order check](3_Function/3.2_Programmer_defined_function/3_12_Order_function.cpp) - `inOrder` checks ascending order for three `int`s.
-- [Even check](3_Function/3.2_Programmer_defined_function/3_13_Even_function.cpp) - `even` returns whether an `int` is even.
-- [Is digit](3_Function/3.2_Programmer_defined_function/3_14_Digits.cpp) - `isDigit` checks if a `char` is a decimal digit.
-- [Greetings examples](3_Function/3.2_Programmer_defined_function/3_15_Greetings.cpp) - `friendly` and `shy` functions demonstrating control flow.
-- [Runtime error discussion](3_Function/3.2_Programmer_defined_function/3_16_Runtime_error.cpp) - Omitting `return` in `void` and divide-by-zero pitfall.
-- [Display products](3_Function/3.2_Programmer_defined_function/3_17_Display_products.cpp) - Void function that outputs product of three integers.
-- [Void vs int main](3_Function/3.2_Programmer_defined_function/3_18_Void_vs_int.cpp) - Notes on `void main()` vs `int main()` and return behavior.
-- [Pre/Post condition (sqrt)](3_Function/3.2_Programmer_defined_function/3_19_Pre_Post_condition.cpp) - Precondition/postcondition example for `sqrt`.
+7. [Output example](3_Function/3.2_Programmer_defined_function/3_7_Output.cpp) - Small function return example producing "Wow".
+8. [Function sum](3_Function/3.2_Programmer_defined_function/3_8_Function_sum.cpp) - Returns sum of three `int` arguments.
+9. [Positive / Negative](3_Function/3.2_Programmer_defined_function/3_9_Positive_negative.cpp) - Returns `'P'` or `'N'` based on a `double`.
+10. [Function definition rule](3_Function/3.2_Programmer_defined_function/3_10_Function_definition.cpp) - Notes that function definitions cannot be nested.
+11. [Predefined vs user-defined](3_Function/3.2_Programmer_defined_function/3_11_Predefined_vs_user_defined.cpp) - Comparison of invocation and differences.
+12. [In-order check](3_Function/3.2_Programmer_defined_function/3_12_Order_function.cpp) - `inOrder` checks ascending order for three `int`s.
+13. [Even check](3_Function/3.2_Programmer_defined_function/3_13_Even_function.cpp) - `even` returns whether an `int` is even.
+14. [Is digit](3_Function/3.2_Programmer_defined_function/3_14_Digits.cpp) - `isDigit` checks if a `char` is a decimal digit.
+15. [Greetings examples](3_Function/3.2_Programmer_defined_function/3_15_Greetings.cpp) - `friendly` and `shy` functions demonstrating control flow.
+16. [Runtime error discussion](3_Function/3.2_Programmer_defined_function/3_16_Runtime_error.cpp) - Omitting `return` in `void` and divide-by-zero pitfall.
+17. [Display products](3_Function/3.2_Programmer_defined_function/3_17_Display_products.cpp) - Void function that outputs product of three integers.
+18. [Void vs int main](3_Function/3.2_Programmer_defined_function/3_18_Void_vs_int.cpp) - Notes on `void main()` vs `int main()` and return behavior.
+19. [Pre/Post condition (sqrt)](3_Function/3.2_Programmer_defined_function/3_19_Pre_Post_condition.cpp) - Precondition/postcondition example for `sqrt`.
