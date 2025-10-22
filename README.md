@@ -131,16 +131,25 @@ Feel free to explore each file for code examples and explanations.
 
 ## Chapter 3: Section 3 Scope rules
 
-- [Function variable declaration](3_Function/3.3_Scope_Rules/3_20_Function_var.cpp) - Where to declare a variable used in a function; prefer function-local unless broader access is needed.
-- [Function-local variables](3_Function/3.3_Scope_Rules/3_21_Function_variables.cpp) - Similar named local variables in different functions do not conflict; each has own scope.
-- [Comment purpose](3_Function/3.3_Scope_Rules/3_22_Principle_procedural_abstraction.cpp) - Explains a function declaration comment: purpose, parameters, and return value for users.
-- [Procedural abstraction](3_Function/3.3_Scope_Rules/3_23_Procedural_abstraction.cpp) - Principle of hiding implementation details so a function can be used like a black box.
-- [Black box](3_Function/3.3_Scope_Rules/3_24_Black_box.cpp) - Treating a function as a black box means relying on its interface, not its internals.
-- [Scope rules example](3_Function/3.3_Scope_Rules/3_25_Scope_rules.cpp) - Nested-block example demonstrating variable shadowing and the resulting output.
+20. [Function variable declaration](3_Function/3.3_Scope_Rules/3_20_Function_var.cpp) - Where to declare a variable used in a function; prefer function-local unless broader access is needed.
+21. [Function-local variables](3_Function/3.3_Scope_Rules/3_21_Function_variables.cpp) - Similar named local variables in different functions do not conflict; each has own scope.
+22. [Comment purpose](3_Function/3.3_Scope_Rules/3_22_Principle_procedural_abstraction.cpp) - Explains a function declaration comment: purpose, parameters, and return value for users.
+23. [Procedural abstraction](3_Function/3.3_Scope_Rules/3_23_Procedural_abstraction.cpp) - Principle of hiding implementation details so a function can be used like a black box.
+24. [Black box](3_Function/3.3_Scope_Rules/3_24_Black_box.cpp) - Treating a function as a black box means relying on its interface, not its internals.
+25. [Scope rules example](3_Function/3.3_Scope_Rules/3_25_Scope_rules.cpp) - Nested-block example demonstrating variable shadowing and the resulting output.
 
 ---
 
 ## Chapter 4: Section 1 Parameters and Overloading
+
+- [Office billing program](4_Parameters_and_Overloading/4.1_Parameters/4_0_1_Office_Billing_Program.cpp) - Computes the bill from hours and minutes using `fee(int, int)` with quarter-hour rounding and `RATE = 150.00`.
+- [Reverse by reference](4_Parameters_and_Overloading/4.1_Parameters/4_0_2_Reverse_by_reference.cpp) - Demonstrates reference parameters: input via references, swap using references, and display results.
+1. [Call-by-value definition](4_Parameters_and_Overloading/4.1_Parameters/4_1_Call_by_value_def.cpp) - Explains the call-by-value parameter mechanism and its effects on arguments.
+2. [Inches conversion (by value)](4_Parameters_and_Overloading/4.1_Parameters/4_2_Inches_conversion_by_value.cpp) - Q&A showing a feet+inches to total inches function and why pass-by-value is appropriate.
+
+
+
+
 
 
 
