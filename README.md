@@ -88,4 +88,9 @@ Feel free to explore each file for code examples and explanations.
 
 ## Chapter 2: Section 4 File Input
 
+- [Read text](2_Flow_of_control/2.4_File_input/2_4_0_1_Read_text.cpp) - Reads `score`, `firstName`, `lastName` from `99_Text_files/0_player.txt` and prints them.
+- [Read until end](2_Flow_of_control/2.4_File_input/2_4_0_2_Read_end.cpp) - Reads every word using `while (inputStream >> text)` and prints each on a line.
+38. [Word output fix](2_Flow_of_control/2.4_File_input/2_38_Word_output.cpp) - Corrects a faulty read loop and explains why the original approach failed.
+39. [Read entries](2_Flow_of_control/2.4_File_input/2_39_Read_entries.cpp) - Reads a count followed by name/score pairs and prints `Name, score` lines.
+40. [Read highest](2_Flow_of_control/2.4_File_input/2_40_Read_highest.cpp) - Finds and prints the player with the highest score from the scores file.
 
