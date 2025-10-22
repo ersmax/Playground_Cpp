@@ -128,3 +128,6 @@ Feel free to explore each file for code examples and explanations.
 17. [Display products](3_Function/3.2_Programmer_defined_function/3_17_Display_products.cpp) - Void function that outputs product of three integers.
 18. [Void vs int main](3_Function/3.2_Programmer_defined_function/3_18_Void_vs_int.cpp) - Notes on `void main()` vs `int main()` and return behavior.
 19. [Pre/Post condition (sqrt)](3_Function/3.2_Programmer_defined_function/3_19_Pre_Post_condition.cpp) - Precondition/postcondition example for `sqrt`.
+
+## Chapter 3: Section 3 Scope rules
+
