@@ -99,7 +99,7 @@ Feel free to explore each file for code examples and explanations.
 ## Chapter 3: Section 1 Predefined Functions
 
 - [Dog house](3_Function/3.1_Predefined_Functions/3_0_1_Dog_house.cpp) - Compute the size of a square doghouse from the user's budget using `sqrt` and formatted output.
-- [Weather forecast](3_Function/3.1_Predefined_Functions/3_0_2_Weather_forecast.cpp) - Simple seeded pseudorandom weather prediction using `srand`, `rand()` and a `switch` inside a `do`/`while`.
+- [Weather forecast](3_Function/3.1_Predefined_Functions/3_0_2_Weather_forecast.cpp) - Seeded pseudorandom weather forecast with `srand`, `rand()` and a `switch` inside a `do`/`while`.
 - [Total cost](3_Function/3.1_Predefined_Functions/3_0_3_Total_cost.cpp) - Computes total bill including a 5\% sales tax via a `totalCost` function.
 - [Rounding](3_Function/3.1_Predefined_Functions/3_0_4_Rounding.cpp) - `rounding` function that returns the nearest integer using `floor(n + 0.5)`.
 1. [Arithmetic functions](3_Function/3.1_Predefined_Functions/3_1_Arithmetic_exp.cpp) - Demonstrates standard `<cmath>` functions like `sqrt`, `pow`, `fabs`, `ceil`, and `floor`.
@@ -107,5 +107,5 @@ Feel free to explore each file for code examples and explanations.
 3. [Square numbers](3_Function/3.1_Predefined_Functions/3_3_Sqaure_numbers.cpp) - Outputs square roots of the whole numbers 1 to 10.
 4. [Function `exit` argument](3_Function/3.1_Predefined_Functions/3_4_Function_void.cpp) - Explains the meaning of the `int` argument passed to `exit`.
 5. [Pseudorandom integers](3_Function/3.1_Predefined_Functions/3_5_Pseudorandom.cpp) - Produces pseudorandom integers in the range 5 to 10 inclusive using `rand()`.
-6. [Pseudo random range](3_Function/3.1_Predefined_Functions/3_6_Pseudo_range.cpp) - Prompts for a seed and outputs ten pseudorandom floating-point numbers in the range 0.0 to 1.0.
+6. [Pseudo random range](3_Function/3.1_Predefined_Functions/3_6_Pseudo_range.cpp) - Prompts for a seed and outputs pseudorandom float numbers in the range 0.0 to 1.0.
 
