@@ -11,9 +11,9 @@ Feel free to explore each file for code examples and explanations.
 - [Cpp vs Java](1_Start/1.2_Expressions/1_0_0_Cpp_vs_Java.cpp) - Explains differences between Java and C\+\+ handling of `char`/`byte` and Unicode.
 - [Greetings](1_Start/1.2_Expressions/1_0_1_Greetings.cpp) - Greeting program that asks how many languages the user used and responds.
 - [Deposit](1_Start/1.2_Expressions/1_0_2_Deposit.cpp) - Reads a deposit amount and computes the balance after one year with a fixed interest rate.
-1. [Declarations](1_Start/1.2_Expressions/1_1.cpp) - Shows two ways to declare and initialize `feet` and `inches` variables.
-2. [Declarations double](1_Start/1.2_Expressions/1_2.cpp) - Shows two ways to declare and initialize `count` (int) and `distance` (double).
-3. [Uninitialized Variables](1_Start/1.2_Expressions/1_3.cpp) - Demonstrates undefined/garbage values from uninitialized local variables and behavior.
+1. [Declarations](1_Start/1.2_Expressions/1_1_Declaration_Int.cpp) - Shows two ways to declare and initialize `feet` and `inches` variables.
+2. [Declarations double](1_Start/1.2_Expressions/1_2_Declaration_Double.cpp) - Shows two ways to declare and initialize `count` (int) and `distance` (double).
+3. [Uninitialized Variables](1_Start/1.2_Expressions/1_3_Undefined_Behaviour_Undefined_Var.cpp) - Demonstrates undefined/garbage values from uninitialized local variables and behavior.
 4. [Expressions Examples](1_Start/1.2_Expressions/1_4_Expressions.cpp) - Converts simple mathematical formulas into C\+\+ expressions with user input.
 5. [Output Characters](1_Start/1.2_Expressions/1_5_Output.cpp) - Shows character assignments and outputs the resulting character sequence.
 6. [Integer Division](1_Start/1.2_Expressions/1_6_Output.cpp) - Demonstrates integer-division pitfalls using `(1/3) * 3`.
