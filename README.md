@@ -42,21 +42,21 @@ Feel free to explore each file for code examples and explanations.
 
 ## Chapter 2: Section 2 Branching
 
-- [Temperatures](`2_Flow_of_control/2.2_Branching/2_0_1_temperatures.cpp`) - Temperature-based branching example (if-else).
-- [Vehicle class](`2_Flow_of_control/2.2_Branching/2_0_2_Vehicle_class.cpp`) - Switch statement for vehicle toll classes.
-- [Greetings (while)](`2_Flow_of_control/2.2_Branching/2_0_3_Greetings.cpp`) - Repeated greetings using `while`.
-- [Greetings once (do-while)](`2_Flow_of_control/2.2_Branching/2_0_4_Greetings_once.cpp`) - At-least-once greetings using `do-while`.
-- [Calories](`2_Flow_of_control/2.2_Branching/2_0_6_Calories.cpp`) - Summing item calories with a loop.
-5. [Division short-circuit](`2_Flow_of_control/2.2_Branching/2_5_Division_0.cpp`) - Short-circuit boolean example preventing division by zero.
-6. [High greater](`2_Flow_of_control/2.2_Branching/2_6_High_greater.cpp`) - Simple if-else comparing `score` to 100.
-7. [Solvent vs Bankrupt](`2_Flow_of_control/2.2_Branching/2_7_Solvent_Bankrupt.cpp`) - Solvent vs Bankrupt logic updating `savings`.
-8. [Passed/Failed](`2_Flow_of_control/2.2_Branching/2_8_Passed_Failed.cpp`) - Compound condition for pass/fail.
-9. [Temperature/Pressure](`2_Flow_of_control/2.2_Branching/2_9_Temperature_Pressure.cpp`) - Warning/OK using logical OR.
-10. [Outputs truthiness](`2_Flow_of_control/2.2_Branching/2_10_Outputs.cpp`) - Demonstrates truthiness of 0, 1, -1 in `if`.
-11. [Greetings options](`2_Flow_of_control/2.2_Branching/2_11_Greetings_options.cpp`) - Nested `if` output/flow example.
-12. [Sizes](`2_Flow_of_control/2.2_Branching/2_12_Sizes.cpp`) - Multi-branch size classification example.
-13. [Smaller sizes](`2_Flow_of_control/2.2_Branching/2_13_Smaller_sizes.cpp`) - Variant for negative value.
-14. [Larger sizes](`2_Flow_of_control/2.2_Branching/2_14_Larger_sizes.cpp`) - Variant for zero value.
-15. [Multiway If-else](`2_Flow_of_control/2.2_Branching/2_15_Multiway_If_else.cpp`) - Multiway classification of integer `n`.
-16. [Directions](`2_Flow_of_control/2.2_Branching/2_16_Directions.cpp`) - Enum ordering demonstration.
-17. [Updated directions](`2_Flow_of_control/2.2_Branching/2_17_Updated_directions.cpp`) - Enum with explicit values and usage.
+- [Temperatures](2_Flow_of_control/2.2_Branching/2_0_1_temperatures.cpp) - Temperature-based branching example (if-else).
+- [Vehicle class](2_Flow_of_control/2.2_Branching/2_0_2_Vehicle_class.cpp) - Switch statement for vehicle toll classes.
+- [Greetings (while)](2_Flow_of_control/2.2_Branching/2_0_3_Greetings.cpp) - Repeated greetings using `while`.
+- [Greetings once (do-while)](2_Flow_of_control/2.2_Branching/2_0_4_Greetings_once.cpp) - At-least-once greetings using `do-while`.
+- [Calories](2_Flow_of_control/2.2_Branching/2_0_6_Calories.cpp) - Summing item calories with a loop.
+5. [Division short-circuit](2_Flow_of_control/2.2_Branching/2_5_Division_0.cpp) - Short-circuit boolean example preventing division by zero.
+6. [High greater](2_Flow_of_control/2.2_Branching/2_6_High_greater.cpp) - Simple if-else comparing `score` to 100.
+7. [Solvent vs Bankrupt](2_Flow_of_control/2.2_Branching/2_7_Solvent_Bankrupt.cpp) - Solvent vs Bankrupt logic updating `savings`.
+8. [Passed/Failed](2_Flow_of_control/2.2_Branching/2_8_Passed_Failed.cpp) - Compound condition for pass/fail.
+9. [Temperature/Pressure](2_Flow_of_control/2.2_Branching/2_9_Temperature_Pressure.cpp) - Warning/OK using logical OR.
+10. [Outputs truthiness](2_Flow_of_control/2.2_Branching/2_10_Outputs.cpp) - Demonstrates truthiness of 0, 1, -1 in `if`.
+11. [Greetings options](2_Flow_of_control/2.2_Branching/2_11_Greetings_options.cpp) - Nested `if` output/flow example.
+12. [Sizes](2_Flow_of_control/2.2_Branching/2_12_Sizes.cpp) - Multi-branch size classification example.
+13. [Smaller sizes](2_Flow_of_control/2.2_Branching/2_13_Smaller_sizes.cpp) - Variant for negative value.
+14. [Larger sizes](2_Flow_of_control/2.2_Branching/2_14_Larger_sizes.cpp) - Variant for zero value.
+15. [Multiway If-else](2_Flow_of_control/2.2_Branching/2_15_Multiway_If_else.cpp) - Multiway classification of integer `n`.
+16. [Directions](2_Flow_of_control/2.2_Branching/2_16_Directions.cpp) - Enum ordering demonstration.
+17. [Updated directions](2_Flow_of_control/2.2_Branching/2_17_Updated_directions.cpp) - Enum with explicit values and usage.
