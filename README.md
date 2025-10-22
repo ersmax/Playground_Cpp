@@ -60,3 +60,32 @@ Feel free to explore each file for code examples and explanations.
 15. [Multiway If-else](2_Flow_of_control/2.2_Branching/2_15_Multiway_If_else.cpp) - Multiway classification of integer `n`.
 16. [Directions](2_Flow_of_control/2.2_Branching/2_16_Directions.cpp) - Enum ordering demonstration.
 17. [Updated directions](2_Flow_of_control/2.2_Branching/2_17_Updated_directions.cpp) - Enum with explicit values and usage.
+
+## Chapter 2: Section 3 Loops
+
+- [Negative numbers](2_Flow_of_control/2.3_Loops/2_0_1_Negative_numbers.cpp) - Read 4 negative numbers, break on non\-negative input and sum the valid entries.
+- [Negative continue](2_Flow_of_control/2.3_Loops/2_0_2_Negative_continue.cpp) - Read 4 negative numbers, use `continue` to re\-prompt on non\-negative input and sum.
+18. [Loop1 (post\-decrement)](2_Flow_of_control/2.3_Loops/2_18_Loop1.cpp) - Demonstrates `while(count-- > 0)` output ordering.
+19. [Loop2 (pre\-decrement)](2_Flow_of_control/2.3_Loops/2_19_Loop2.cpp) - Demonstrates `while(--count > 0)` output ordering.
+20. [Loop3 (do\-while with n++)](2_Flow_of_control/2.3_Loops/2_20_Loop3.cpp) - `do`/`while` with post\-increment shows outputs ending at 4.
+21. [Loop4 (do\-while with ++n)](2_Flow_of_control/2.3_Loops/2_21_Loop4.cpp) - `do`/`while` with pre\-increment shows outputs ending at 3.
+22. [Loop5](2_Flow_of_control/2.3_Loops/2_22_Loop5.cpp) - `while` decrementing by 3 prints 10, 7, 4, 1.
+23. [Loop6](2_Flow_of_control/2.3_Loops/2_23_Loop6.cpp) - `while(x < 0)` with `x = 10` produces no output.
+24. [Loop7 (do\-while)](2_Flow_of_control/2.3_Loops/2_24_Loop7.cpp) - `do`/`while` variant that prints 10, 7, 4, 1.
+25. [Loop8 (do\-while negative start)](2_Flow_of_control/2.3_Loops/2_25_Loop8.cpp) - `do`/`while` with negative start prints the initial value once.
+26. [While vs Do\-while](2_Flow_of_control/2.3_Loops/2_26_Loop9.cpp) - Explains the key difference: condition check before vs after body.
+27. [For loop 1](2_Flow_of_control/2.3_Loops/2_27_For_loop1.cpp) - `for` producing 2 4 6 8.
+28. [For loop 2](2_Flow_of_control/2.3_Loops/2_28_For_loop2.cpp) - `for` decrementing by 2 printing `Hello` with the loop variable.
+29. [For loop 3](2_Flow_of_control/2.3_Loops/2_29_For_loop3.cpp) - `for` with `double` step prints 2 1.5 1 0.5.
+30. [For loop rewrites](2_Flow_of_control/2.3_Loops/2_30_For_loop4.cpp) - Rewrite `while`/`do` examples as `for` loops.
+31. [For loop log](2_Flow_of_control/2.3_Loops/2_31_For_loop5.cpp) - Counts doublings until a limit (prints `1024 10`).
+32. [For loop with empty body](2_Flow_of_control/2.3_Loops/2_32_For_loop6.cpp) - Demonstrates trailing semicolon producing an empty loop body.
+33. [For loop infinite pitfall](2_Flow_of_control/2.3_Loops/2_33_For_loop7.cpp) - Shows an unintended infinite loop when starting at 0 and multiplying.
+34. [Loop choice guidance](2_Flow_of_control/2.3_Loops/2_34_For_loop8.cpp) - Advice on when to use `while`, `do`/`while`, or `for`.
+35. [Infinite growth example](2_Flow_of_control/2.3_Loops/2_35_For_loop10.cpp) - `while` that increases the variable causing an infinite loop.
+36. [Break statement](2_Flow_of_control/2.3_Loops/2_36_Break_statement.cpp) - Explains `break` behavior in loops and `switch`.
+37. [Nested loops output](2_Flow_of_control/2.3_Loops/2_37_Output.cpp) - Nested `for` loops producing a multiplication table.
+
+## Chapter 2: Section 4 File Input
+
+
