@@ -13,7 +13,7 @@ Feel free to explore each file for code examples and explanations.
 - [Deposit](1_Start/1.2_Expressions/1_0_2_Deposit.cpp) - Reads a deposit amount and computes the balance after one year with a fixed interest rate.
 1. [Declarations](1_Start/1.2_Expressions/1_1.cpp) - Shows two ways to declare and initialize `feet` and `inches` variables.
 2. [Declarations double](1_Start/1.2_Expressions/1_2.cpp) - Shows two ways to declare and initialize `count` (int) and `distance` (double).
-3. [Uninitialized Variables](1_Start/1.2_Expressions/1_3.cpp) - Demonstrates undefined/garbage values from uninitialized local variables and explains behavior.
+3. [Uninitialized Variables](1_Start/1.2_Expressions/1_3.cpp) - Demonstrates undefined/garbage values from uninitialized local variables and behavior.
 4. [Expressions Examples](1_Start/1.2_Expressions/1_4_Expressions.cpp) - Converts simple mathematical formulas into C\+\+ expressions with user input.
 5. [Output Characters](1_Start/1.2_Expressions/1_5_Output.cpp) - Shows character assignments and outputs the resulting character sequence.
 6. [Integer Division](1_Start/1.2_Expressions/1_6_Output.cpp) - Demonstrates integer-division pitfalls using `(1/3) * 3`.
