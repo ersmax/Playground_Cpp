@@ -99,7 +99,7 @@ Feel free to explore each file for code examples and explanations.
 ## Chapter 3: Section 1 Predefined Functions
 
 - [Dog house](3_Function/3.1_Predefined_Functions/3_0_1_Dog_house.cpp) - Compute the size of a square doghouse from the user's budget using `sqrt` and formatted output.
-- [Weather forecast](3_Function/3.1_Predefined_Functions/3_0_2_Weather_forecast.cpp) - Seeded pseudorandom weather forecast with `srand`, `rand()` and a `switch` inside a `do`/`while`.
+- [Weather forecast](3_Function/3.1_Predefined_Functions/3_0_2_Weather_forecast.cpp) - Seeded pseudorandom weather forecast with `srand`, `rand()` and `switch` with `do`/`while`.
 - [Total cost](3_Function/3.1_Predefined_Functions/3_0_3_Total_cost.cpp) - Computes total bill including a 5\% sales tax via a `totalCost` function.
 - [Rounding](3_Function/3.1_Predefined_Functions/3_0_4_Rounding.cpp) - `rounding` function that returns the nearest integer using `floor(n + 0.5)`.
 1. [Arithmetic functions](3_Function/3.1_Predefined_Functions/3_1_Arithmetic_exp.cpp) - Demonstrates standard `<cmath>` functions like `sqrt`, `pow`, `fabs`, `ceil`, and `floor`.
