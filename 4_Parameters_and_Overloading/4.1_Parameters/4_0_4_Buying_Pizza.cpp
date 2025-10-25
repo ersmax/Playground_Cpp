@@ -24,7 +24,7 @@ double unitPrice(int diameter, double price);
 
 int main( ) {
     // PostCondition: Prompts user for pizza data and
-    //                displays which pizza is the best buy. 
+    //                displays which pizza is the best buy.
     int diameterSmall, diameterLarge;
     double priceSmall, priceLarge;
     getData(diameterSmall, diameterLarge, priceSmall, priceLarge);
