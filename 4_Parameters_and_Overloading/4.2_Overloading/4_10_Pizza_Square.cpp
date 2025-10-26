@@ -25,7 +25,7 @@
 // Another approach would be changing the parameter list of one of the functions.
 // For instance, you can overload the function unitPrice to accept
 // a double for the side of square pizza, and rely on the type coercion or casting
-// from int to double.
+// from int to double. However, this is not a clean solution and may lead to ambiguity.
 
 
 #include <iostream>     // std::cin, std::cout, std::endl, std::ios
