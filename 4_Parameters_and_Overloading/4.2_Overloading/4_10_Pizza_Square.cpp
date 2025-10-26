@@ -1,16 +1,32 @@
 /*
-    The Pizza Consumers Union has been very successful with the program that we wrote
-    for it in Display 4.0.4. In fact, now everybody always buys the pizza that is the best buy.
-    One disreputable pizza parlor used to make money by fooling consumers into buying
-    the more expensive pizza, but our program has put an end to its evil practices.
-    However, the owners wish to continue their despicable behavior and have come up
-    with a new way to fool consumers. They now offer both round pizzas and rectangular
-    pizzas. They know that the program we wrote cannot deal with rectangular-shaped
-    pizzas, so they hope they can again confuse consumers. Display 4.7 is another version
-    of our program that compares a round pizza and a rectangular pizza. Note that the
-    function name unitPrice has been overloaded so that it applies to both round and
-    rectangular pizzas.
- */
+    This question has to do with the programming example entitled “Revised
+    Pizza-Buying Program.” (4_0_6). Suppose the evil pizza parlor that is always trying
+    to fool customers introduces a square pizza. Can you overload the function
+    unitPrice so that it can compute the price per square inch of a square pizza as
+    well as the price per square inch of a round pizza? Why or why not?
+*/
+
+// Answer: In theory, you cannot because if you did, you would have two functions with the same
+// signature (both taking two parameters: an int and a double).
+// Formally:
+// This cannot be done (at least not in any nice way). The natural ways to represent
+// a square and a round pizza are the same. Each is naturally represented as one
+// number, which is the radius for a round pizza and the length of a side for a square
+// pizza. In either case the function unitPrice would need to have one formal
+// parameter of type double for the price and one formal parameter of type int for
+// the size (either radius or side). Thus, the two function declarations would have
+// the same number and types of formal parameters. (Specifically, they would both
+// have one formal parameter of type double and one formal parameter of type int.)
+// Thus, the compiler would not be able to decide which definition to use.
+//
+// You can still defeat this evil pizza parlor’s strategy by defining two functions,
+// but they will need to have different names.
+//
+// Another approach would be changing the parameter list of one of the functions.
+// For instance, you can overload the function unitPrice to accept
+// a double for the side of square pizza, and rely on the type coercion or casting
+// from int to double.
+
 
 #include <iostream>     // std::cin, std::cout, std::endl, std::ios
 #include <cmath>        // std::acos
@@ -43,11 +59,16 @@ void getData(int& smallLength, int& smallWidth,
 // Postcondition: defines the values of the 6 parameters.
 // Pass by reference to modify the variables declared in main.
 
+void getData(double& sideSmall, double& sideLarge,
+             double& priceSmall, double& priceLarge);
+
 void giveResults(int smallDiameter, int largeDiameter,
                  int smallLength, int smallWidth,
                  int largeLength, int largeWidth,
+                 double sideSmall, double sideLarge,
                  double priceRoundSmall, double priceRoundLarge,
-                 double priceRectangularSmall, double priceRectangularLarge);
+                 double priceRectangularSmall, double priceRectangularLarge,
+                 double priceSideSmall, double priceSideLarge);
 // Precondition: all parameters are defined
 // Postcondition: displays ranking of pizzas according to price per inch.
 // Pass by value since no modification is needed.
@@ -66,14 +87,20 @@ double unitPrice(int length, int width, double price);
 // Precondition: length, width, and price are defined
 // Postcondition: returns the unit price (price per square inch)
 
+double unitPrice(double side, double price);
+// Precondition: side and price are defined
+// Postcondition: returns the unit price (price per square inch) for square pizza
+
 int main( ) {
     // PostCondition: Prompts user for pizza data and
     //                displays ranking of pizzas according to price per inch.
     int diameterSmall, diameterLarge,
         lengthSmall, widthSmall,
         lengthLarge, widthLarge;
-    double priceRoundSmall, priceRoundLarge,
-           priceRectangularSmall, priceRectangularLarge;
+    double sideSmall, sideLarge,
+           priceRoundSmall, priceRoundLarge,
+           priceRectangularSmall, priceRectangularLarge,
+           priceSideSmall, priceSideLarge;
 
     cout << "Welcome to Pizza Hut.\n";
     getData(diameterSmall, diameterLarge,
@@ -81,11 +108,15 @@ int main( ) {
     getData(lengthSmall, widthSmall,
             lengthLarge, widthLarge,
             priceRectangularSmall, priceRectangularLarge);
+    getData(sideSmall, sideLarge,
+            priceSideSmall, priceSideLarge);
     giveResults(diameterSmall, diameterLarge,
                 lengthSmall, widthSmall,
                 lengthLarge, widthLarge,
+                sideSmall, sideLarge,
                 priceRoundSmall, priceRoundLarge,
-                priceRectangularSmall, priceRectangularLarge);
+                priceRectangularSmall, priceRectangularLarge,
+                priceSideSmall, priceSideLarge);
     return 0;
 }
 
@@ -114,23 +145,39 @@ void getData(int& smallLength, int& smallWidth,
     cin >> largeLength >> largeWidth >> priceLarge;
 }
 
+void getData(double& sideSmall, double& sideLarge, double& priceSmall, double& priceLarge) {
+    cout << "Enter the side and price of a SMALL square pizza\n "
+        << "(separated by space, e.g. 15 8.99): ";
+    cin >> sideSmall >> priceSmall;
+    cout << "Enter the side and price of a LARGE square pizza\n "
+         << "(separated by space, e.g. 16 10.99): ";
+    cin >> sideLarge >> priceLarge;
+}
+
+
 void giveResults(int smallDiameter, int largeDiameter,
                  int smallLength, int smallWidth,
                  int largeLength, int largeWidth,
+                 double sideSmall, double sideLarge,
                  double priceRoundSmall, double priceRoundLarge,
-                 double priceRectangularSmall, double priceRectangularLarge) {
+                 double priceRectangularSmall, double priceRectangularLarge,
+                 double priceSideSmall, double priceSideLarge) {
 
     double pPizzaRoundSmall = unitPrice(smallDiameter, priceRoundSmall);
     double pPizzaRoundLarge = unitPrice(largeDiameter, priceRoundLarge);
     double pPizzaRectangularSmall = unitPrice(smallLength, smallWidth, priceRectangularSmall);
     double pPizzaRectangularLarge = unitPrice(largeLength, largeWidth, priceRectangularLarge);
+    double pPizzaSquareSmall = unitPrice(sideSmall, priceSideSmall);
+    double pPizzaSquareLarge = unitPrice(sideLarge, priceSideLarge);
 
     // Use vector for faster STL operations: sort later on unit price
     vector<pair<double, string>> pricePizza = {
         { pPizzaRoundSmall, "Round SMALL"},
         { pPizzaRoundLarge, "Round LARGE"},
         { pPizzaRectangularSmall, "Rectangular SMALL"},
-        { pPizzaRectangularLarge, "Rectangular LARGE"}
+        { pPizzaRectangularLarge, "Rectangular LARGE"},
+        { pPizzaSquareSmall, "Square SMALL"},
+        { pPizzaSquareLarge, "Square LARGE"}
     };
 
     // Sort the vector `price-Pizza` according to price per inch
@@ -152,6 +199,7 @@ bool compareByPrice(const pair<double, string>& firstElement,
 }
 
 double unitPrice(int diameter, double price) {
+    cout << "Calling ROUND unit Price\n";
     const double PI = acos(-1.0);
     double radius = diameter / static_cast<double>(2);
     double area = PI * radius * radius;
@@ -159,6 +207,13 @@ double unitPrice(int diameter, double price) {
 }
 
 double unitPrice(int length, int width, double price) {
+    cout << "Calling RECTANGULAR unit Price\n";
     double area = length * width;
+    return (price / area);
+}
+
+double unitPrice(double side, double price) {
+    cout << "Calling SQUARE unit Price\n";
+    double area = side * side;
     return (price / area);
 }
