@@ -154,6 +154,9 @@ Feel free to explore each file for code examples and explanations.
 5. [Setter zero](4_Parameters_and_Overloading/4.1_Parameters/4_5_Setter_Zero.cpp) - `zeroBoth` sets two `int` variables to zero via reference parameters.
 6. [Add tax to cost](4_Parameters_and_Overloading/4.1_Parameters/4_6_Tax_Cost.cpp) - `addTax` applies a percentage tax to a cost (modifies `cost` by reference).
 7. [By-value vs by-reference change](4_Parameters_and_Overloading/4.1_Parameters/4_7_By_value_By_reference.cpp) - Explains output differences when `par2Ref` is changed to call-by-value.
+8. [Overloading by n parameters](4_Parameters_and_Overloading/4.2_Overloading/4_8_Overloading_n_parameters.cpp) - Overloads `score` function by changing n parameters.
+9. [Overloading by type](4_Parameters_and_Overloading/4.2_Overloading/4_9_Overloading_by_type.cpp) - Overloads `theAnswer` function by changing parameter types.
+
 
 
 
