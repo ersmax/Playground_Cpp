@@ -26,6 +26,11 @@
 // For instance, you can overload the function unitPrice to accept
 // a double for the side of square pizza, and rely on the type coercion or casting
 // from int to double. However, this is not a clean solution and may lead to ambiguity.
+// In details, if an int is passed to unitPrice for the parameter `side`, the
+// function unitPrice for the Round Pizza will be called instead of the one for Square Pizza,
+// since the first overloaded function that is used is that with the
+// exact number and types of arguments matching the function signature.
+// This defeats the purpose of overloading the function for different pizza shapes.
 
 
 #include <iostream>     // std::cin, std::cout, std::endl, std::ios
@@ -117,6 +122,7 @@ int main( ) {
                 priceRoundSmall, priceRoundLarge,
                 priceRectangularSmall, priceRectangularLarge,
                 priceSideSmall, priceSideLarge);
+
     return 0;
 }
 
@@ -145,7 +151,8 @@ void getData(int& smallLength, int& smallWidth,
     cin >> largeLength >> largeWidth >> priceLarge;
 }
 
-void getData(double& sideSmall, double& sideLarge, double& priceSmall, double& priceLarge) {
+void getData(double& sideSmall, double& sideLarge,
+             double& priceSmall, double& priceLarge) {
     cout << "Enter the side and price of a SMALL square pizza\n "
         << "(separated by space, e.g. 15 8.99): ";
     cin >> sideSmall >> priceSmall;
