@@ -8,9 +8,7 @@ Feel free to explore each file for code examples and explanations.
 
 ## Chapter 1 
 
-=== 
-
-### Section 2 Expressions
+### Ch.1 Section 2 Expressions
 
 - [Cpp vs Java](1_Start/1.2_Expressions/1_0_0_Cpp_vs_Java.cpp) - Explains differences between Java and C\+\+ handling of `char`/`byte` and Unicode.
 - [Greetings](1_Start/1.2_Expressions/1_0_1_Greetings.cpp) - Greeting program that asks how many languages the user used and responds.
@@ -24,7 +22,7 @@ Feel free to explore each file for code examples and explanations.
 7. [Quotient and Remainder](1_Start/1.2_Expressions/1_7_Output_and_remainder.cpp) - Reads two integers and prints the whole-number quotient and remainder.
 8. [Temperature Conversion](1_Start/1.2_Expressions/1_8_Temperature_conversion.cpp) - Shows a Celsius-to-Fahrenheit conversion bug due to integer division and correction.
 
-## Chapter 1: Section 3 Console In and Console Out
+### Ch.1 Section 3 Console In and Console Out
 
 - [Age](1_Start/1.3_Console_In_Out/1_3_0_1_Age.cpp) - Reads a dog's age and name, then computes the equivalent human years.
 9. [Message](1_Start/1.3_Console_In_Out/1_3_9_Message.cpp) - Outputs the multi-line phrase about Life, the Universe, and Everything being 42.
@@ -37,14 +35,16 @@ Feel free to explore each file for code examples and explanations.
 
 ---
 
-## Chapter 2: Section 1 Boolean expressions
+## Chapter 2 
+
+### Ch.2 Section 1 Boolean expressions
 
 1. [Boolean expressions](2_Flow_of_control/2.1_Boolean_expressions/2_1_boolean_exp.cpp) - Evaluates a set of Boolean expressions with `count = 0` and `limit = 10`, demonstrates short-circuiting and notes division-by-zero pitfalls.
 2. [Boolean interval](2_Flow_of_control/2.1_Boolean_expressions/2_2_Boolean_interval.cpp) - Explains why `2 < x < 3` is incorrect in C\+\+ and shows the correct expression `2 < x && x < 3`.
 3. [Quadratic positive region](2_Flow_of_control/2.1_Boolean_expressions/2_3_Quadratic_exp.cpp) - Shows the Boolean condition where `x^2 - x - 2` is positive: `x < -1 || x > 2`.
 4. [Quadratic negative region](2_Flow_of_control/2.1_Boolean_expressions/2_4_Quadratic_exp_negative.cpp) - Shows the Boolean condition where `x^2 - 4x + 3` is negative: `x > 1 && x < 3`.
 
-## Chapter 2: Section 2 Branching
+### Ch.2 Section 2 Branching
 
 - [Temperatures](2_Flow_of_control/2.2_Branching/2_0_1_temperatures.cpp) - Temperature-based branching example (if-else).
 - [Vehicle class](2_Flow_of_control/2.2_Branching/2_0_2_Vehicle_class.cpp) - Switch statement for vehicle toll classes.
@@ -65,7 +65,7 @@ Feel free to explore each file for code examples and explanations.
 16. [Directions](2_Flow_of_control/2.2_Branching/2_16_Directions.cpp) - Enum ordering demonstration.
 17. [Updated directions](2_Flow_of_control/2.2_Branching/2_17_Updated_directions.cpp) - Enum with explicit values and usage.
 
-## Chapter 2: Section 3 Loops
+### Ch.2 Section 3 Loops
 
 - [Negative numbers](2_Flow_of_control/2.3_Loops/2_0_1_Negative_numbers.cpp) - Read 4 negative numbers, break on non\-negative input and sum the valid entries.
 - [Negative continue](2_Flow_of_control/2.3_Loops/2_0_2_Negative_continue.cpp) - Read 4 negative numbers, use `continue` to re\-prompt on non\-negative input and sum.
@@ -90,7 +90,7 @@ Feel free to explore each file for code examples and explanations.
 36. [Break statement](2_Flow_of_control/2.3_Loops/2_36_Break_statement.cpp) - Explains `break` behavior in loops and `switch`.
 37. [Nested loops output](2_Flow_of_control/2.3_Loops/2_37_Output.cpp) - Nested `for` loops producing a multiplication table.
 
-## Chapter 2: Section 4 File Input
+### Ch.2 Section 4 File Input
 
 - [Read text](2_Flow_of_control/2.4_File_input/2_4_0_1_Read_text.cpp) - Reads `score`, `firstName`, `lastName` from `99_Text_files/0_player.txt` and prints them.
 - [Read until end](2_Flow_of_control/2.4_File_input/2_4_0_2_Read_end.cpp) - Reads every word using `while (inputStream >> text)` and prints each on a line.
@@ -100,7 +100,9 @@ Feel free to explore each file for code examples and explanations.
 
 ---
 
-## Chapter 3: Section 1 Predefined Functions
+## Chapter 3 
+
+### Ch.3 Section 1 Predefined Functions
 
 - [Dog house](3_Function/3.1_Predefined_Functions/3_0_1_Dog_house.cpp) - Compute the size of a square doghouse from the user's budget using `sqrt` and formatted output.
 - [Weather forecast](3_Function/3.1_Predefined_Functions/3_0_2_Weather_forecast.cpp) - Seeded pseudorandom weather forecast with `srand`, `rand()` and `switch` with `do`/`while`.
@@ -113,7 +115,7 @@ Feel free to explore each file for code examples and explanations.
 5. [Pseudorandom integers](3_Function/3.1_Predefined_Functions/3_5_Pseudorandom.cpp) - Produces pseudorandom integers in the range 5 to 10 inclusive using `rand()`.
 6. [Pseudo random range](3_Function/3.1_Predefined_Functions/3_6_Pseudo_range.cpp) - Prompts for a seed and outputs pseudorandom float numbers in the range 0.0 to 1.0.
 
-## Chapter 3: Section 2 Programmer defined functions
+### Ch.3 Section 2 Programmer defined functions
 
 - [Temperature conversion](3_Function/3.2_Programmer_defined_function/3_0_1_Temp_conversion.cpp) - Celsius to Fahrenheit conversion using a helper function.
 - [Ice cream division](3_Function/3.2_Programmer_defined_function/3_0_2_Ice_cream_division.cpp) - Divide total ice cream among customers with zero-check.
@@ -133,7 +135,7 @@ Feel free to explore each file for code examples and explanations.
 18. [Void vs int main](3_Function/3.2_Programmer_defined_function/3_18_Void_vs_int.cpp) - Notes on `void main()` vs `int main()` and return behavior.
 19. [Pre/Post condition (sqrt)](3_Function/3.2_Programmer_defined_function/3_19_Pre_Post_condition.cpp) - Precondition/postcondition example for `sqrt`.
 
-## Chapter 3: Section 3 Scope rules
+### Ch.3 Section 3 Scope rules
 
 20. [Function variable declaration](3_Function/3.3_Scope_Rules/3_20_Function_var.cpp) - Where to declare a variable used in a function; prefer function-local unless broader access is needed.
 21. [Function-local variables](3_Function/3.3_Scope_Rules/3_21_Function_variables.cpp) - Similar named local variables in different functions do not conflict; each has own scope.
@@ -144,7 +146,9 @@ Feel free to explore each file for code examples and explanations.
 
 ---
 
-## Chapter 4: Section 1 Parameters
+## Chapter 4
+
+### Ch.4 Section 1 Parameters
 
 - [Office billing program](4_Parameters_and_Overloading/4.1_Parameters/4_0_1_Office_Billing_Program.cpp) - Computes the bill from hours and minutes using `fee(int,int)` with quarter-hour rounding and `RATE = 150.00`.
 - [Reverse by reference](4_Parameters_and_Overloading/4.1_Parameters/4_0_2_Reverse_by_reference.cpp) - Demonstrates reference parameters: input via references, swap using references.
@@ -158,7 +162,7 @@ Feel free to explore each file for code examples and explanations.
 6. [Add tax to cost](4_Parameters_and_Overloading/4.1_Parameters/4_6_Tax_Cost.cpp) - `addTax` applies a percentage tax to a cost (modifies `cost` by reference).
 7. [By-value vs by-reference change](4_Parameters_and_Overloading/4.1_Parameters/4_7_By_value_By_reference.cpp) - Explains output differences when `par2Ref` is changed to call-by-value.
 
-## Chapter 4: Section 2 Overloading
+### Ch.4 Section 2 Overloading
 - [Average overload](4_Parameters_and_Overloading/4.2_Overloading/4_0_5_Average_overloading.cpp) - Overload `average` function by changing n of parameters
 8. [Overloading by n parameters](4_Parameters_and_Overloading/4.2_Overloading/4_8_Function_overloading_n_parameters.cpp) - Overloads `score` function by changing n parameters.
 9. [Overloading by type](4_Parameters_and_Overloading/4.2_Overloading/4_9_Function_overloading_types.cpp) - Overloads `theAnswer` function by changing parameter types.
