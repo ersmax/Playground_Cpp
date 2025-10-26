@@ -146,6 +146,7 @@ Feel free to explore each file for code examples and explanations.
 - [Reverse by reference](4_Parameters_and_Overloading/4.1_Parameters/4_0_2_Reverse_by_reference.cpp) - Demonstrates reference parameters: input via references, swap using references.
 - [Comparing argument mechanisms](4_Parameters_and_Overloading/4.1_Parameters/4_0_3_Comparing_Argument_Mechanisms.cpp) - Shows difference between call-by-value and call-by-reference with results.
 - [Buying pizza](4_Parameters_and_Overloading/4.1_Parameters/4_0_4_Buying_Pizza.cpp) - Compares two pizza sizes by price per square inch (area computed using `PI`).
+- [Average overload](4_Parameters_and_Overloading/4.1_Parameters/4_0_5_Average_Overload.cpp) - Overload `average` function by changing n of parameters
 1. [Call-by-value definition](4_Parameters_and_Overloading/4.1_Parameters/4_1_Call_by_value_def.cpp) - Explains the call-by-value parameter mechanism and its effects.
 2. [Inches conversion (by value)](4_Parameters_and_Overloading/4.1_Parameters/4_2_Inches_conversion_by_value.cpp) - Converts feet and inches to total inches; explains why pass-by-value is appropriate.
 3. [Output pass/reference example](4_Parameters_and_Overloading/4.1_Parameters/4_3_Output_Pass_Reference.cpp) - Shows mixed call-by-reference and call-by-value effects with example output.
