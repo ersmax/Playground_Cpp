@@ -170,7 +170,7 @@ Feel free to explore each file for code examples and explanations.
 - [Default arguments](4_Parameters_and_Overloading/4.2_Overloading/4_0_7_Default_arguments.cpp) - Show the functioning of default argument
 8. [Overloading by n parameters](4_Parameters_and_Overloading/4.2_Overloading/4_8_Function_overloading_n_parameters.cpp) - Overloads `score` function by changing n parameters.
 9. [Overloading by type](4_Parameters_and_Overloading/4.2_Overloading/4_9_Function_overloading_types.cpp) - Overloads `theAnswer` function by changing parameter types.
-10. [Pizza Square][Pizza Square](4_Parameters_and_Overloading/4.2_Overloading/4_10_Pizza_Square.cpp) - Computes unit price 
+10. [Pizza Square](4_Parameters_and_Overloading/4.2_Overloading/4_10_Pizza_Square.cpp) - Computes unit price 
    of different pizza shapes using overloaded `unitPrice` and `getData`, and assert the correct dimensions with `assert`
    to check that preconditions are met.
 
