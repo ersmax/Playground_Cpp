@@ -165,12 +165,14 @@ Feel free to explore each file for code examples and explanations.
 ### Ch.4 Section 2 Overloading
 - [Average overload](4_Parameters_and_Overloading/4.2_Overloading/4_0_5_Average_overloading.cpp) - Overload `average` function by changing n of parameters
 - [Pizza round vs rectangular](4_Parameters_and_Overloading/4.2_Overloading/4_0_6_Pizza_Round_Sqaure_Small_Large.cpp) - Compares unit price of round and 
-   rectangular pizzas; demonstrates function overloading for `unitPrice`, use of `std::pair`/`std::vector`, a comparator for `std::sort`, and formatted numeric output.
-- [Default arguments]
+   rectangular pizzas; demonstrates function overloading for `unitPrice`, use of `std::pair`/`std::vector`, 
+   a comparator for `std::sort`, and formatted numeric output.
+- [Default arguments](4_Parameters_and_Overloading/4.2_Overloading/4_0_7_Default_arguments.cpp) - Show the functioning of default argument
 8. [Overloading by n parameters](4_Parameters_and_Overloading/4.2_Overloading/4_8_Function_overloading_n_parameters.cpp) - Overloads `score` function by changing n parameters.
 9. [Overloading by type](4_Parameters_and_Overloading/4.2_Overloading/4_9_Function_overloading_types.cpp) - Overloads `theAnswer` function by changing parameter types.
-10. [Pizza Square]
-
+10. [Pizza Square][Pizza Square](4_Parameters_and_Overloading/4.2_Overloading/4_10_Pizza_Square.cpp) - Computes unit price 
+   of different pizza shapes using overloaded `unitPrice` and `getData`, and assert the correct dimensions with `assert`
+   to check that preconditions are met.
 
 
 
