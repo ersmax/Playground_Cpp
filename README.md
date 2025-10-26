@@ -140,13 +140,12 @@ Feel free to explore each file for code examples and explanations.
 
 ---
 
-## Chapter 4: Section 1 Parameters and Overloading
+## Chapter 4: Section 1 Parameters
 
 - [Office billing program](4_Parameters_and_Overloading/4.1_Parameters/4_0_1_Office_Billing_Program.cpp) - Computes the bill from hours and minutes using `fee(int,int)` with quarter-hour rounding and `RATE = 150.00`.
 - [Reverse by reference](4_Parameters_and_Overloading/4.1_Parameters/4_0_2_Reverse_by_reference.cpp) - Demonstrates reference parameters: input via references, swap using references.
 - [Comparing argument mechanisms](4_Parameters_and_Overloading/4.1_Parameters/4_0_3_Comparing_Argument_Mechanisms.cpp) - Shows difference between call-by-value and call-by-reference with results.
 - [Buying pizza](4_Parameters_and_Overloading/4.1_Parameters/4_0_4_Buying_Pizza.cpp) - Compares two pizza sizes by price per square inch (area computed using `PI`).
-- [Average overload](4_Parameters_and_Overloading/4.1_Parameters/4_0_5_Average_Overload.cpp) - Overload `average` function by changing n of parameters
 1. [Call-by-value definition](4_Parameters_and_Overloading/4.1_Parameters/4_1_Call_by_value_def.cpp) - Explains the call-by-value parameter mechanism and its effects.
 2. [Inches conversion (by value)](4_Parameters_and_Overloading/4.1_Parameters/4_2_Inches_conversion_by_value.cpp) - Converts feet and inches to total inches; explains why pass-by-value is appropriate.
 3. [Output pass/reference example](4_Parameters_and_Overloading/4.1_Parameters/4_3_Output_Pass_Reference.cpp) - Shows mixed call-by-reference and call-by-value effects with example output.
@@ -154,8 +153,11 @@ Feel free to explore each file for code examples and explanations.
 5. [Setter zero](4_Parameters_and_Overloading/4.1_Parameters/4_5_Setter_Zero.cpp) - `zeroBoth` sets two `int` variables to zero via reference parameters.
 6. [Add tax to cost](4_Parameters_and_Overloading/4.1_Parameters/4_6_Tax_Cost.cpp) - `addTax` applies a percentage tax to a cost (modifies `cost` by reference).
 7. [By-value vs by-reference change](4_Parameters_and_Overloading/4.1_Parameters/4_7_By_value_By_reference.cpp) - Explains output differences when `par2Ref` is changed to call-by-value.
-8. [Overloading by n parameters](4_Parameters_and_Overloading/4.2_Overloading/4_8_Overloading_n_parameters.cpp) - Overloads `score` function by changing n parameters.
-9. [Overloading by type](4_Parameters_and_Overloading/4.2_Overloading/4_9_Overloading_by_type.cpp) - Overloads `theAnswer` function by changing parameter types.
+
+## Chapter 4: Section 2 Overloading
+- [Average overload](4_Parameters_and_Overloading/4.2_Overloading/4_0_5_Average_overloading.cpp) - Overload `average` function by changing n of parameters
+8. [Overloading by n parameters](4_Parameters_and_Overloading/4.2_Overloading/4_8_Function_overloading_n_parameters.cpp) - Overloads `score` function by changing n parameters.
+9. [Overloading by type](4_Parameters_and_Overloading/4.2_Overloading/4_9_Function_overloading_types.cpp) - Overloads `theAnswer` function by changing parameter types.
 
 
 
