@@ -1,3 +1,17 @@
+/*
+    The Pizza Consumers Union has been very successful with the program that we wrote
+    for it in Display 4.0.4. In fact, now everybody always buys the pizza that is the best buy.
+    One disreputable pizza parlor used to make money by fooling consumers into buying
+    the more expensive pizza, but our program has put an end to its evil practices.
+    However, the owners wish to continue their despicable behavior and have come up
+    with a new way to fool consumers. They now offer both round pizzas and rectangular
+    pizzas. They know that the program we wrote cannot deal with rectangular-shaped
+    pizzas, so they hope they can again confuse consumers. Display 4.7 is another version
+    of our program that compares a round pizza and a rectangular pizza. Note that the
+    function name unitPrice has been overloaded so that it applies to both round and
+    rectangular pizzas.
+ */
+
 #include <iostream>     // std::cin, std::cout, std::endl, std::ios
 #include <cmath>        // std::acos
 #include <algorithm>    // std::sort
