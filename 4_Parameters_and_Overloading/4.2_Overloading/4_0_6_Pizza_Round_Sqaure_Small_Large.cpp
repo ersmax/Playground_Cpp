@@ -12,6 +12,12 @@ void getData(int& smallLength, int& smallWidth,
              int& largeLength, int& largeWidth,
              double& priceSmall, double& priceLarge);
 
+void giveResults(int smallDiameter, int largeDiameter,
+                 int smallLength, int smallWidth,
+                 int largeLength, int largeWidth,
+                 double priceRoundSmall, double priceRoundLarge,
+                 double priceRectangularSmall, double priceRectangularLarge);
+
 double unitPrice(int diameter, double price);
 
 double unitPrice(int length, int width, double price);
@@ -21,19 +27,19 @@ int main( ) {
         lengthSmall, widthSmall,
         lengthLarge, widthLarge;
     double priceRoundSmall, priceRoundLarge,
-           pRectangularSmall, pRectangularLarge;
+           priceRectangularSmall, priceRectangularLarge;
 
     cout << "Welcome to Pizza Hut.\n";
     getData(diameterSmall, diameterLarge,
             priceRoundSmall, priceRoundLarge);
     getData(lengthSmall, widthSmall,
             lengthLarge, widthLarge,
-            pRectangularSmall, pRectangularLarge);
-
-
-
-
-
+            priceRectangularSmall, priceRectangularLarge);
+    giveResults(diameterSmall, diameterLarge,
+                lengthSmall, widthSmall,
+                lengthLarge, widthLarge,
+                priceRoundSmall, priceRoundLarge,
+                priceRectangularSmall, priceRoundLarge);
     return 0;
 }
 
@@ -61,3 +67,21 @@ void getData(int& smallLength, int& smallWidth,
          << "(separated by space, e.g. 12 14 12.99): ";
     cin >> largeLength >> largeWidth >> priceLarge;
 }
+
+void giveResults(int smallDiameter, int largeDiameter,
+                 int smallLength, int smallWidth,
+                 int largeLength, int largeWidth,
+                 double priceRoundSmall, double priceRoundLarge,
+                 double priceRectangularSmall, double priceRectangularLarge) {
+
+    double pPizzaRoundSmall, pPizzaRoundLarge,
+           pPizzaRectangularSmall, pPizzaRectangularLarge;
+
+    pPizzaRoundSmall = unitPrice(smallDiameter, priceRoundSmall);
+    pPizzaRoundLarge = unitPrice(largeDiameter, priceRoundLarge);
+    pPizzaRectangularSmall = unitPrice(smallLength, smallWidth, priceRectangularSmall);
+    pPizzaRectangularLarge = unitPrice(largeLength, largeWidth, priceRectangularLarge);
+
+    
+}
+
