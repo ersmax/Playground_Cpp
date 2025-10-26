@@ -6,7 +6,11 @@ Feel free to explore each file for code examples and explanations.
 
 ---
 
-## Chapter 1: Section 2 Expressions
+## Chapter 1 
+
+=== 
+
+### Section 2 Expressions
 
 - [Cpp vs Java](1_Start/1.2_Expressions/1_0_0_Cpp_vs_Java.cpp) - Explains differences between Java and C\+\+ handling of `char`/`byte` and Unicode.
 - [Greetings](1_Start/1.2_Expressions/1_0_1_Greetings.cpp) - Greeting program that asks how many languages the user used and responds.
