@@ -32,7 +32,7 @@
 // exact number and types of arguments matching the function signature.
 // This defeats the purpose of overloading the function for different pizza shapes.
 
-
+// #define NDEBUG
 #include <iostream>     // std::cin, std::cout, std::endl, std::ios
 #include <cmath>        // std::acos
 #include <algorithm>    // std::sort
@@ -40,6 +40,7 @@
 #include <string>       // std::string
 #include <iomanip>      // std::fixed, std::showpoint, std::setprecision
 #include <utility>      // std::pair
+#include <cassert>
 using std::cin;
 using std::cout;
 using std::endl;
@@ -51,21 +52,26 @@ using std::fixed;
 using std::showpoint;
 using std::setprecision;
 using std::sort;
+using std::is_same_v;
 
 void getData(int& smallDiameter, int& largeDiameter,
             double& priceSmall, double& priceLarge);
-// Precondition: smallDiameter, largeDiameter, priceSmall, and priceLarge are declared
+// Precondition: smallDiameter and largeDiameter are greater than 0
 // Postcondition: defines the values of the 4 parameters.
 // Pass by reference to modify the variables declared in main.
 
 void getData(int& smallLength, int& smallWidth,
              int& largeLength, int& largeWidth,
              double& priceSmall, double& priceLarge);
+// Precondition: smallLength, smallWidth, largeLength, largeWidth are greater than 0
 // Postcondition: defines the values of the 6 parameters.
 // Pass by reference to modify the variables declared in main.
 
 void getData(double& sideSmall, double& sideLarge,
              double& priceSmall, double& priceLarge);
+// Precondition: sideSmall and sideLarge are greater than 0
+// Postcondition: defines the values of the 4 parameters.
+// Pass by reference to modify the variables declared in main.
 
 void giveResults(int smallDiameter, int largeDiameter,
                  int smallLength, int smallWidth,
@@ -108,13 +114,24 @@ int main( ) {
            priceSideSmall, priceSideLarge;
 
     cout << "Welcome to Pizza Hut.\n";
+
     getData(diameterSmall, diameterLarge,
             priceRoundSmall, priceRoundLarge);
+    assert( (0 < diameterSmall) && (0 < diameterLarge)
+        && "Diameter should be greater than 0.");
+
     getData(lengthSmall, widthSmall,
             lengthLarge, widthLarge,
             priceRectangularSmall, priceRectangularLarge);
+    assert( (0 < lengthSmall) && (0 < widthSmall)
+         && (0 < lengthLarge) && (0 < widthLarge)
+         && "Diameter should be greater than 0.");
+
     getData(sideSmall, sideLarge,
             priceSideSmall, priceSideLarge);
+    assert( (0 < sideSmall) && (0 < sideLarge)
+        && "Diameter should be greater than 0.");
+
     giveResults(diameterSmall, diameterLarge,
                 lengthSmall, widthSmall,
                 lengthLarge, widthLarge,
@@ -122,7 +139,6 @@ int main( ) {
                 priceRoundSmall, priceRoundLarge,
                 priceRectangularSmall, priceRectangularLarge,
                 priceSideSmall, priceSideLarge);
-
     return 0;
 }
 
@@ -221,6 +237,8 @@ double unitPrice(int length, int width, double price) {
 
 double unitPrice(double side, double price) {
     cout << "Calling SQUARE unit Price\n";
+
+    static_assert(is_same_v<decltype(side), double>, "`side` must be double");
     double area = side * side;
     return (price / area);
 }

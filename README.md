@@ -166,8 +166,10 @@ Feel free to explore each file for code examples and explanations.
 - [Average overload](4_Parameters_and_Overloading/4.2_Overloading/4_0_5_Average_overloading.cpp) - Overload `average` function by changing n of parameters
 - [Pizza round vs rectangular](4_Parameters_and_Overloading/4.2_Overloading/4_0_6_Pizza_Round_Sqaure_Small_Large.cpp) - Compares unit price of round and 
    rectangular pizzas; demonstrates function overloading for `unitPrice`, use of `std::pair`/`std::vector`, a comparator for `std::sort`, and formatted numeric output.
+- [Default arguments]
 8. [Overloading by n parameters](4_Parameters_and_Overloading/4.2_Overloading/4_8_Function_overloading_n_parameters.cpp) - Overloads `score` function by changing n parameters.
 9. [Overloading by type](4_Parameters_and_Overloading/4.2_Overloading/4_9_Function_overloading_types.cpp) - Overloads `theAnswer` function by changing parameter types.
+10. [Pizza Square]
 
 
 
