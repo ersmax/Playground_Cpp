@@ -174,8 +174,12 @@ Feel free to explore each file for code examples and explanations.
    of different pizza shapes (Round/Rectangular/Square) and size (Small/Large) using overloaded `unitPrice` 
    and `getData`, and assert the correct dimensions with `assert` to check whether preconditions are met.
 
-
-
+### Ch.4 Section 3 Testing and Debugging functions
+- [Driver Program and Stubs](4_Parameters_and_Overloading/4.3_Testing_Debugging_Functions/4_0_8_Driver_Program_and_Stubs.cpp) - Demonstrates a driver program and stubs to test functions before full implementation.
+11. [Fundamental Rule for Testing Functions](4_Parameters_and_Overloading/4.3_Testing_Debugging_Functions/4_11_Fundamental_Rule_Testing.cpp) - Explains the fundamental rule for testing functions (unit testing): test each function independently so bugs are isolated and easy to find.
+12. [Driver Program](4_Parameters_and_Overloading/4.3_Testing_Debugging_Functions/4_12_Driver_Program.cpp) - Defines a driver program and shows how to use a small test program to exercise a function in isolation.
+13. [Stub](4_Parameters_and_Overloading/4.3_Testing_Debugging_Functions/4_13_Stub.cpp) - Defines a stub and explains its role as a simplified replacement used to test callers before the full implementation exists.
+14. [Stub: Rain Likelihood](4_Parameters_and_Overloading/4.3_Testing_Debugging_Functions/4_14_Stub_Rain_likelihood.cpp) - Provides a short stub for `rainProb(pressure, humidity, temp)` that returns a fixed probability to allow testing of functions that call it.
 
 
 
