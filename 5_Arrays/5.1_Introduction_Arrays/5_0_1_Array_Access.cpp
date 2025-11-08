@@ -13,7 +13,7 @@ int main( ) {
     }
     std::cout << "Enter 5 scores:\n";
     // better readability
-    for (int& score : scores2) {
+    for (auto& score : scores2) {
         std::cin >> score;
         if (score > max)
             max = score;
