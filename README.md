@@ -187,7 +187,7 @@ Feel free to explore each file for code examples and explanations.
 
 ### Ch.5 Section 1 Introduction to Arrays
 
-- [Array Access](5_Arrays/5.1_Introduction_Arrays/5_0_1_Array_Access.cpp) \- Read two 5\-element arrays, find the maximum, and print differences using index and range\-based loops.
+- [Array Access](5_Arrays/5.1_Introduction_Arrays/5_0_1_Array_Access.cpp) \- Read two arrays, find the maximum, and print differences using index and range\-based loops.
 1. [Array Size](5_Arrays/5.1_Introduction_Arrays/5_1_Array_Size.cpp) \- Explains the meaning of sizes in `int a[5]` vs `a[4]`.
 2. [Array Declarations](5_Arrays/5.1_Introduction_Arrays/5_2_Array_Declarations.cpp) \- Identify array name, base type, declared size, index range, and an element.
 3. [Array Pitfalls](5_Arrays/5.1_Introduction_Arrays/5_3_Array_Pitfalls.cpp) \- Highlights initialization errors and non\-constant size pitfalls for C\-style arrays.
