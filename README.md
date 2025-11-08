@@ -181,5 +181,20 @@ Feel free to explore each file for code examples and explanations.
 13. [Stub](4_Parameters_and_Overloading/4.3_Testing_Debugging_Functions/4_13_Stub.cpp) - Defines a stub and explains its role as a simplified replacement used to test callers before the full implementation exists.
 14. [Stub: Rain Likelihood](4_Parameters_and_Overloading/4.3_Testing_Debugging_Functions/4_14_Stub_Rain_likelihood.cpp) - Provides a short stub for `rainProb(pressure, humidity, temp)` that returns a fixed probability to allow testing of functions that call it.
 
+--- 
 
+## Chapter 5
+
+### Ch.5 Section 1 Introduction to Arrays
+- `5_Arrays/5.1_Introduction_Arrays/5.0_1_Array_Access.cpp` — Read two 5\-element arrays, find max, and print differences using index and range\-based loops.
+1. `5_Arrays/5.1_Introduction_Arrays/5_1_Array_Size.cpp` — Explains meaning of sizes in `int a[5]` vs `a[4]`.
+2. `5_Arrays/5.1_Introduction_Arrays/5_2_Array_Declarations.cpp` — Identifies array name, base type, declared size, index range, and an element.
+3. `5_Arrays/5.1_Introduction_Arrays/5_3_Array_Pitfalls.cpp` — Highlights initialization and non\-constant size pitfalls for C\-style arrays.
+4. `5_Arrays/5.1_Introduction_Arrays/5_4_Array_Loop.cpp` — Prints characters from a small char array.
+5. `5_Arrays/5.1_Introduction_Arrays/5_5_Array_Output.cpp` — Shows array element assignment and repeated outputs.
+6. `5_Arrays/5.1_Introduction_Arrays/5_6_Array_Indeces_Output.cpp` — Fills an array with `2*i` and prints all and every second element.
+7. `5_Arrays/5.1_Introduction_Arrays/5_7_Illegal_Array_Index.cpp` — Demonstrates out\-of\-range indexing bug.
+8. `5_Arrays/5.1_Introduction_Arrays/5_8_Index_Out_of_Bounds.cpp` — Fixes loop bounds to avoid accessing `a[10]`.
+9. `5_Arrays/5.1_Introduction_Arrays/5_9_Array_Filling.cpp` — Reads 20 ints into an array and prints them.
+10. `5_Arrays/5.1_Introduction_Arrays/5_10_Array_Memory_Address.cpp` — Explains array memory usage and element address calculation.
 
