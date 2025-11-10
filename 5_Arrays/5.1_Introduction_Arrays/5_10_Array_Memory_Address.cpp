@@ -14,6 +14,8 @@ will be the address of the indexed variable yourArray[3]?
 // Total memory = Number of elements * Size of each element
 // Total memory = 7 * 2 bytes = 14 bytes
 // If the memory address of yourArray[0] is 1000, then the address of yourArray[3] can be calculated as follows:
-// Address of yourArray[3] = Address of yourArray[0] + (Index of yourArray[3] * Size of each element or indexed variables)
-// Address of yourArray[3] = 1000 + (3 * 2 bytes) = 1000 + 6 bytes = 1006
+// The computer knows that youArray[3] is located three int variables past youArray[0]
+// Address of yourArray[3] = Address of yourArray[0] + memory used by three int variables
+// Address of yourArray[3] = Address of yourArray[0] + Bytes per int * [three] index variables before yourArray[3]
+// Address of yourArray[3] = 1000 + (2 bytes * 3) = 1000 + 6 bytes = 1006
 // Therefore, the address of yourArray[3] will be 1006.
