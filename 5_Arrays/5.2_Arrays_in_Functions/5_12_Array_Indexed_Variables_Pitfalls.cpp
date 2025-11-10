@@ -18,7 +18,7 @@ tripler(b[i]);
 // Both:
 // - forbid modifying elements through the pointer (because of `const`),
 // - allow changing the local pointer value inside the function (it's a copy),
-// - lose the array size (so you must pass it separately).
+// - lose the array size (so we must pass it separately).
 //
 // `arr[]` is just syntactic sugar that signals the parameter is an array;
 // we may use `std::span` or a template array reference if we need to preserve size.
@@ -28,8 +28,15 @@ tripler(b[i]);
 void tripler(int& n);
 
 void showArray(const int arr[], size_t size);
+// Precondition: size is the declared size of the array
+// Postcondition: display the array elements.
+//                Array decays to pointer to first element.
 
 void showArray2(const int* arr, size_t size);
+// Precondition: size is the declared size of the array
+// Postcondition: display the array elements.
+//                Array decays to pointer to first element.
+//                This is equivalent to showArray.
 
 int main( ) {
     int b[5] = {1, 2, 3, 4, 5};
