@@ -24,7 +24,7 @@ int rounding(double number);
 // Precondition: number >= 0
 // Postcondition: number rounded to the nearest integer;
 
-void graph(const int asteriskCount[], int lasPlantNumber);
+void graph(const int asteriskCount[], int lastPlantNumber);
 // Precondition: asteriskCount[0] through asteriskCount[lastPlantNumber-1] have nonnegative values.
 // Postcondition: A bar graph is displayed saying that plant number `N`
 //    has produced asteriskCount[N-1] number of units (in thousands), for each N s.t. 1 <= N <= lastPlantNumber.
@@ -43,7 +43,7 @@ int main( ) {
     return 0;
 }
 
-void inputData(int productionPlants[], int lastPlantNumber) {
+void inputData(int productionPlants[], const int lastPlantNumber) {
     for (size_t plantNumber = 1; plantNumber <= lastPlantNumber; ++plantNumber) {
         std::cout << "\n"
                   << "Enter production data for plant number "
@@ -74,10 +74,10 @@ int rounding(const double number) {
     return static_cast<int>(std::floor(number + 0.5));
 }
 
-void graph(const int asteriskCount[], int lasPlantNumber) {
+void graph(const int asteriskCount[], const int lastPlantNumber) {
     std::cout << "\n"
               << "Units produced (in thousands of units):\n\n";
-    for (size_t plantNumber = 1; plantNumber <= lasPlantNumber; ++plantNumber) {
+    for (size_t plantNumber = 1; plantNumber <= lastPlantNumber; ++plantNumber) {
         std::cout << "Plant n." << plantNumber << " ";
         printAsterisks(asteriskCount[plantNumber - 1]);
         std::cout << "\n";
