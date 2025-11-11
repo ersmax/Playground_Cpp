@@ -201,4 +201,14 @@ Bullet list elements illustrate examples, while numbered list elements indicate 
 9. [Array Filling](5_Arrays/5.1_Introduction_Arrays/5_9_Array_Filling.cpp) \- Reads 20 integers from the keyboard into an array and prints them.
 10. [Array Memory Address](5_Arrays/5.1_Introduction_Arrays/5_10_Array_Memory_Address.cpp) \- Explains array memory consumption and computes element addresses.
 
+## Ch.5 Section 2 Arrays in Functions
 
+- [Function with Array Parameter](5_Arrays/5.2_Arrays_in_Functions/5_0_2_Function_with_Array_Parameter.cpp) \- Demonstrates passing a fixed-size array by reference and the decayed pointer form, with examples to fill and display array contents.
+- [Pitfall: Inconsistent Use of const](5_Arrays/5.2_Arrays_in_Functions/5_0_3_Pitfall_Inconsistent_Use_Const.cpp) \- Shows const-correctness pitfalls when array parameters are declared without `const` and the resulting type mismatches.
+- [Production Graph](5_Arrays/5.2_Arrays_in_Functions/5_0_4_Production_Graph.cpp) \- Reads plant production, scales values to thousands with rounding, and displays a bar graph where each `*` represents 1000 units.
+11. [Array Indexed Variables: Parameters](5_Arrays/5.2_Arrays_in_Functions/5_11_Array_Indexed_Variables_Parameters.cpp) \- Exercises passing array elements and variables by reference to a function (the `tripler` example) and shows valid/invalid calls.
+12. [Array Indexed Variables: Pitfalls](5_Arrays/5.2_Arrays_in_Functions/5_12_Array_Indexed_Variables_Pitfalls.cpp) \- Highlights common off-by-one and indexing mistakes and compares equivalent parameter declarations for array parameters.
+13. [Increase Array Parameter](5_Arrays/5.2_Arrays_in_Functions/5_13_Increase_Array_Parameter.cpp) \- Implements `oneMore` to increment every element of an integer array and demonstrates usage.
+14. [Incorrect Function Calls: Array Parameter](5_Arrays/5.2_Arrays_in_Functions/5_14_Incorrect_Function_Calls_Array_Parameter.cpp) \- Lists examples of correct and incorrect calls to a function that fills an array, explaining bounds and syntax issues.
+15. [Constant Array Parameter](5_Arrays/5.2_Arrays_in_Functions/5_15_Constant_Array_Parameter.cpp) \- Describes when to add `const` to array parameters and shows examples where `const` is appropriate or not.
+16. [Out Of Order Array Parameter](5_Arrays/5.2_Arrays_in_Functions/5_16_Out_of_order_Array_Parameter.cpp) \- Implements `outOfOrder` to detect the first element violating ascending order and return its index or `-1`.
