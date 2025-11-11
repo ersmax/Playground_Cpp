@@ -29,13 +29,16 @@ void graph(const int asteriskCount[], int lasPlantNumber);
 // Postcondition: A bar graph is displayed saying that plant number `N`
 //    has produced asteriskCount[N-1] number of units (in thousands), for each N s.t. 1 <= N <= lastPlantNumber.
 
+void printAsterisks(int number);
+// Postcondition: Prints `number` asterisks to the screen.
+
 int main( ) {
     int production[NUMBER_OF_PLANTS];   // manufacturing plants
     std::cout << "This program displays a graph showing\n"
               << "production for each plant in the company.\n";
     inputData(production, NUMBER_OF_PLANTS);
     scale(production, NUMBER_OF_PLANTS);
-    // TODO: graph(production, NUMBER_OF_PLANTS);
+    graph(production, NUMBER_OF_PLANTS);
     std::cout << "\n";
     return 0;
 }
@@ -75,6 +78,13 @@ void graph(const int asteriskCount[], int lasPlantNumber) {
     std::cout << "\n"
               << "Units produced (in thousands of units):\n\n";
     for (size_t plantNumber = 1; plantNumber <= lasPlantNumber; ++plantNumber) {
-        std::cout << "Plant";
+        std::cout << "Plant n." << plantNumber << " ";
+        printAsterisks(asteriskCount[plantNumber - 1]);
+        std::cout << "\n";
     }
+}
+
+void printAsterisks(int number) {
+    for (int count = 1; count <= number; ++count)
+        std::cout << "*";
 }
