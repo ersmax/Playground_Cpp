@@ -5,6 +5,8 @@
 //   This helps later to reuse the function `fillArray`,
 // even if the size of the array parameter changes to another
 // constant or value in the function call.
+// For instance, the next program 5_0_6_Searching_Array reuses this
+// `fillArray` function with different global constant.
 //   Additionally, displaying the declared size can still be
 // a good idea to remind that the function needs this information
 // in a critically important way (that is: array parameter is not a mere
