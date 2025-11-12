@@ -4,6 +4,8 @@
 
 #include <iostream>
 #include <limits>
+#include <iomanip>
+#include <sstream>
 
 constexpr int NUMBER_STUDENTS = 4;
 constexpr int NUMBER_QUIZZES = 3;
@@ -24,31 +26,54 @@ int main( ) {
     return 0;
 }
 
-void fillArray(int grade[][NUMBER_QUIZZES], std::size_t nStudents) {
-    std::size_t idxStudent = 1;
-    int result;
-    while (idxStudent <= nStudents) {
+void fillArray(int grade[][NUMBER_QUIZZES], const std::size_t nStudents) {
+    std::string line;
+    for (std::size_t student = 1; student <= nStudents; ++student) {
+        std::cout << "Enter result (0-10) for " << NUMBER_QUIZZES
+                  << " quizzes for student " << (student) << ":";
+        for (int quiz = 1; quiz <= NUMBER_QUIZZES; ++quiz) {
+            int result;
+            while (true) {
 
-        int idxQuiz = 1;
-        while (idxQuiz <= NUMBER_QUIZZES) {
-            std::cout << "Enter result (0-10) quiz " << idxQuiz
-                      << " for student " << idxStudent << ":";
-            if (!(std::cin >> result)) {
-                std::cout << "Wrong quiz results.\n";
-                std::cin.clear();
-                std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
-                continue;
+                if (!(std::cin >> result)) {
+                    std::cout << "Invalid value for quiz " << quiz
+                              << ". Retry.\n";
+                    std::cin.clear();
+                    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+                    continue;
+                }
+
+                if (result >= 0 && result <= 10) {
+                    grade[student - 1][quiz - 1] = result;
+                    std::cout << "Quiz " << quiz << " score: " << result << "\n";
+                    break;
+                }
+                std::cout << "Grade must be between 0-10 for quiz " << quiz
+                          << " . Retry.\n";
             }
-            if ((result >= 0) && (result <= 10))
-                grade[idxStudent - 1][idxQuiz++ - 1] = result;
-            else
-                std::cout << "Grade must be between 0-10. Try again.\n\n";
         }
-        ++idxStudent;
     }
 }
 
 void display(const int grade[][NUMBER_QUIZZES], std::size_t nStudents) {
-    
+    std::cout << std::fixed << std::showpoint << std::setprecision(1);
+    std::cout << std::setw(10) << "Student"
+              << std::setw(7)  << "Average"
+              << std::setw(15) << "Quizzes\n";
+
+    for (size_t idxStudent = 1; idxStudent <= nStudents; ++idxStudent) {
+        std::cout << std::setw(10) << idxStudent
+                  << std::setw(7)  << "average";
+
+        for (int idxQuiz = 1; idxQuiz <= NUMBER_QUIZZES; ++idxQuiz)
+            std::cout << std::setw(5) << grade[idxStudent - 1][idxQuiz - 1];
+
+        std::cout << "\n";
+    }
+
+    std::cout << "Quiz average = ";
+    for (int idxQuiz = 1; idxQuiz <= NUMBER_QUIZZES; ++idxQuiz)
+        std::cout << std::setw(5) << "n.d.";
+    std::cout << "\n";
 }
 
