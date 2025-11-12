@@ -56,7 +56,7 @@ int main( ) {
     return 0;
 }
 
-void fillArray(int numbers[], int size, int& numberUsed) {
+void fillArray(int numbers[], const int size, int& numberUsed) {
     std::cout << "Enter upo to " << size
               << " nonnegative whole numbers.\n"
               << "Mark the end with a negative number.\n";
@@ -80,7 +80,7 @@ void sort(int numbers[], const int numberUsed) {
     }
 }
 
-int findSmallest(const int numbers[], int startIndex, const int numberUsed) {
+int findSmallest(const int numbers[], const int startIndex, const int numberUsed) {
     int min = numbers[startIndex];
     int idxMin = startIndex;
 
