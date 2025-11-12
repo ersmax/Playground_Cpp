@@ -14,12 +14,22 @@ void fillArray(int grade[][NUMBER_QUIZZES], std::size_t nStudents);
 
 void display(const int grade[][NUMBER_QUIZZES], std::size_t nStudents);
 
+void computeQuizAverage(const int grade[][NUMBER_QUIZZES], std::size_t nStudents,
+                        double quizAverage[], std::size_t nQuizzes);
+
+void computeStudentAverage(const int grade[][NUMBER_QUIZZES], std::size_t nStudents,
+                           double studentAverage[], std::size_t nStud);
+
 int main( ) {
     int grades[NUMBER_STUDENTS][NUMBER_QUIZZES];
     double studentAverage[NUMBER_STUDENTS];
     double quizAverage[NUMBER_QUIZZES];
 
     fillArray(grades, std::size(grades));
+
+    // TODO // computeQuizAverage(grades, std::size(grades), quizAverage, std::size(quizAverage));
+    // TODO // computeStudentAverage(grades, std::size(grades), studentAverage, std::size(studentAverage));
+
     display(grades, std::size(grades));
 
     std::cout << "\n";
@@ -58,12 +68,12 @@ void fillArray(int grade[][NUMBER_QUIZZES], const std::size_t nStudents) {
 void display(const int grade[][NUMBER_QUIZZES], std::size_t nStudents) {
     std::cout << std::fixed << std::showpoint << std::setprecision(1);
     std::cout << std::setw(10) << "Student"
-              << std::setw(7)  << "Average"
+              << std::setw(10)  << "Average"
               << std::setw(15) << "Quizzes\n";
 
     for (size_t idxStudent = 1; idxStudent <= nStudents; ++idxStudent) {
         std::cout << std::setw(10) << idxStudent
-                  << std::setw(7)  << "average";
+                  << std::setw(10)  << "average";
 
         for (int idxQuiz = 1; idxQuiz <= NUMBER_QUIZZES; ++idxQuiz)
             std::cout << std::setw(5) << grade[idxStudent - 1][idxQuiz - 1];
@@ -71,9 +81,21 @@ void display(const int grade[][NUMBER_QUIZZES], std::size_t nStudents) {
         std::cout << "\n";
     }
 
-    std::cout << "Quiz average = ";
+    std::cout << std::setw(20) << "Quiz average = ";
     for (int idxQuiz = 1; idxQuiz <= NUMBER_QUIZZES; ++idxQuiz)
         std::cout << std::setw(5) << "n.d.";
     std::cout << "\n";
 }
+
+void computeQuizAverage(const int grade[][NUMBER_QUIZZES], std::size_t nStudents,
+                        double quizAverage[], std::size_t nQuizzes) {
+    // TODO
+}
+
+void computeStudentAverage(const int grade[][NUMBER_QUIZZES], std::size_t nStudents,
+                           double studentAverage[], std::size_t nStud) {
+    // TODO
+}
+
+
 
