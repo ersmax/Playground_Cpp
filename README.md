@@ -212,3 +212,16 @@ Bullet list elements illustrate examples, while numbered list elements indicate 
 14. [Incorrect Function Calls: Array Parameter](5_Arrays/5.2_Arrays_in_Functions/5_14_Incorrect_Function_Calls_Array_Parameter.cpp) \- Lists examples of correct and incorrect calls to a function that fills an array, explaining bounds and syntax issues.
 15. [Constant Array Parameter](5_Arrays/5.2_Arrays_in_Functions/5_15_Constant_Array_Parameter.cpp) \- Describes when to add `const` to array parameters and shows examples where `const` is appropriate or not.
 16. [Out Of Order Array Parameter](5_Arrays/5.2_Arrays_in_Functions/5_16_Out_of_order_Array_Parameter.cpp) \- Implements `outOfOrder` to detect the first element violating ascending order and return its index or `-1`.
+
+## Ch.5 Section 3 Programming with arrays
+
+- [Reusable Functions Golf Scores](5_Arrays/5.3_Programming_with_Arrays/5_0_5_Reusable_Functions_Golf_Scores.cpp) \- Read up to 10 golf scores, compute the average and show each score's difference from the average.
+- [Searching Array](5_Arrays/5.3_Programming_with_Arrays/5_0_6_Searching_Array.cpp) \- Reuses `fillArray` to read numbers and provides a linear search returning the index or `-1` if not found.
+- [Selection Sort](5_Arrays/5.3_Programming_with_Arrays/5_0_7_Selection_Sort.cpp) \- Implements selection sort with a helper to find the smallest element and sorts the partially filled array.
+- [Bubble Sort](5_Arrays/5.3_Programming_with_Arrays/5_0_8_Bubble_Sort.cpp) \- Demonstrates bubble sort by repeatedly swapping adjacent out-of-order elements until the array is sorted.
+17. [Read Array](5_Arrays/5.3_Programming_with_Arrays/5_17_Read_Array.cpp) \- Reads up to 10 nonnegative integers with input validation and prints the entered values.
+18. [Reverse Letters](5_Arrays/5.3_Programming_with_Arrays/5_18_Reverse_Letters.cpp) \- Reads up to 10 letters until a period sentinel and prints them in reverse order.
+19. [Search Array Alternative](5_Arrays/5.3_Programming_with_Arrays/5_19_Search_Array_Alternative.cpp) \- Alternative `search` version that returns `bool` and sets `where` by reference; includes validated input for robustness.
+
+## Ch.5 Section 4 Multidimensional Arrays
+
