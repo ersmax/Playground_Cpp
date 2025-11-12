@@ -201,7 +201,7 @@ Bullet list elements illustrate examples, while numbered list elements indicate 
 9. [Array Filling](5_Arrays/5.1_Introduction_Arrays/5_9_Array_Filling.cpp) \- Reads 20 integers from the keyboard into an array and prints them.
 10. [Array Memory Address](5_Arrays/5.1_Introduction_Arrays/5_10_Array_Memory_Address.cpp) \- Explains array memory consumption and computes element addresses.
 
-## Ch.5 Section 2 Arrays in Functions
+### Ch.5 Section 2 Arrays in Functions
 
 - [Function with Array Parameter](5_Arrays/5.2_Arrays_in_Functions/5_0_2_Function_with_Array_Parameter.cpp) \- Demonstrates passing a fixed-size array by reference and the decayed pointer form, with examples to fill and display array contents.
 - [Pitfall: Inconsistent Use of const](5_Arrays/5.2_Arrays_in_Functions/5_0_3_Pitfall_Inconsistent_Use_Const.cpp) \- Shows const-correctness pitfalls when array parameters are declared without `const` and the resulting type mismatches.
@@ -213,7 +213,7 @@ Bullet list elements illustrate examples, while numbered list elements indicate 
 15. [Constant Array Parameter](5_Arrays/5.2_Arrays_in_Functions/5_15_Constant_Array_Parameter.cpp) \- Describes when to add `const` to array parameters and shows examples where `const` is appropriate or not.
 16. [Out Of Order Array Parameter](5_Arrays/5.2_Arrays_in_Functions/5_16_Out_of_order_Array_Parameter.cpp) \- Implements `outOfOrder` to detect the first element violating ascending order and return its index or `-1`.
 
-## Ch.5 Section 3 Programming with arrays
+### Ch.5 Section 3 Programming with arrays
 
 - [Reusable Functions Golf Scores](5_Arrays/5.3_Programming_with_Arrays/5_0_5_Reusable_Functions_Golf_Scores.cpp) \- Read up to 10 golf scores, compute the average and show each score's difference from the average.
 - [Searching Array](5_Arrays/5.3_Programming_with_Arrays/5_0_6_Searching_Array.cpp) \- Reuses `fillArray` to read numbers and provides a linear search returning the index or `-1` if not found.
@@ -223,5 +223,5 @@ Bullet list elements illustrate examples, while numbered list elements indicate 
 18. [Reverse Letters](5_Arrays/5.3_Programming_with_Arrays/5_18_Reverse_Letters.cpp) \- Reads up to 10 letters until a period sentinel and prints them in reverse order.
 19. [Search Array Alternative](5_Arrays/5.3_Programming_with_Arrays/5_19_Search_Array_Alternative.cpp) \- Alternative `search` version that returns `bool` and sets `where` by reference; includes validated input for robustness.
 
-## Ch.5 Section 4 Multidimensional Arrays
+### Ch.5 Section 4 Multidimensional Arrays
 
