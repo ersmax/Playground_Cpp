@@ -225,3 +225,9 @@ Bullet list elements illustrate examples, while numbered list elements indicate 
 
 ### Ch.5 Section 4 Multidimensional Arrays
 
+- [Display two-dimensional array](5_Arrays/5.4_Multidimensional_Arrays/5_0_09_Display_Multidimensional_Arrays.cpp) \- Simple program that displays a 2D `char` array (`page`) row by row.
+- [Two-Dimensional Grading Program](5_Arrays/5.4_Multidimensional_Arrays/5_0_10_Two_Dimensional_Grading_Program.cpp) \- Reads quiz scores into a 2D array, computes student and quiz averages, and prints a formatted report.
+20. [Two-Dimensional Array Output](5_Arrays/5.4_Multidimensional_Arrays/5_20_Two_Dimensional_Array_Output.cpp) \- Fills a 4x4 array with column indices and prints the matrix output.
+21. [Fill In Array](5_Arrays/5.4_Multidimensional_Arrays/5_21_Fill_In_Array.cpp) \- Reads a 4x5 integer array from input (five numbers per line over four lines) and prints the values.
+22. [Echo Multidimensional Array](5_Arrays/5.4_Multidimensional_Arrays/5_22_Display_Multidimensional_Array.cpp) \- Implements `echo` to print a 4x5 integer array in the same four-lines-of-five-numbers format.
+
