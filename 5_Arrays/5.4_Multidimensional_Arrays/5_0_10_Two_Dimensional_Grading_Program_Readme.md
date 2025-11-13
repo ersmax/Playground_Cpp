@@ -44,5 +44,8 @@ Here is the table:
 |           | `quizAve[0]` | `quizAve[1]` | `quizAve[2]` |         |            |
 
 
+<p align="center">
+  <img src="./figures/Quiz.PNG" alt="Game quiz scores" width="60%" />
+</p>
 
 
