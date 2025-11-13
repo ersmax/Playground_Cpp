@@ -35,7 +35,7 @@ void fillData(int numbers[][5], const std::size_t size) {
         for (int idx2 = 0; idx2 < 5; ++idx2) {
             int next;
             while (!(std::cin >> next)) {
-                std::cout << "Not a number. Retry.\n";
+                std::cout << "Not a number for number " << idx2 + 1 <<  ". Retry.\n";
                 std::cin.clear();
                 std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
             }
